@@ -1,0 +1,49 @@
+{
+	"format": "2",
+	"files": {
+		"drops.json": {
+			"version": "458.0.10207839",
+			"format": "7"
+		},
+		"engrams.json": {
+			"version": "458.0.10207839"
+		},
+		"event_colors.json": {
+			"version": "458.0.10207839",
+			"format": "1"
+		},
+		"items.json": {
+			"version": "458.0.10207839",
+			"format": "4"
+		},
+		"loot_crates.json": {
+			"version": "458.0.10207839",
+			"format": "7"
+		},
+		"missions.json": {
+			"version": "458.0.10207839",
+			"format": "3"
+		},
+		"spawn_groups.json": {
+			"version": "458.0.10207839",
+			"format": "4"
+		},
+		"species.json": {
+			"version": "458.0.10207839",
+			"format": "4"
+		},
+		"TSOTF/biomes.json": {
+			"version": "458.0.10207839"
+		},
+		"TSOTF/loot_crates.json": {
+			"version": "458.0.10207839"
+		},
+		"TSOTF/npc_spawns.json": {
+			"version": "458.0.10207839",
+			"format": "1"
+		},
+		"TSOTF/world_settings.json": {
+			"version": "458.0.10207839"
+		}
+	}
+}

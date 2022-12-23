@@ -1,0 +1,366 @@
+{
+	"$schema": "../.schema/maps_loot_crates.json",
+	"version": "458.0.10207839",
+	"core": { "official": true },
+	"format": "2",
+	"persistentLevel": "/Game/Maps/TSOTF/TheIsland_SOTF",
+	"lootCrates": [
+		{
+			"maxCrateNumber": 3,
+			"crateClasses": [ "/Game/PrimalEarth/Structures/SupplyCrate_Cave_QualityTier1.SupplyCrate_Cave_QualityTier1_C" ],
+			"crateLocations": [
+				{
+					"x": 9567.775, "y": 271190.8, "z": -23034.09,
+					"lat": 83.89885, "long": 51.19597
+				},
+				{
+					"x": 33557.74, "y": 267005.7, "z": -21632.56,
+					"lat": 83.37571, "long": 54.19472
+				},
+				{
+					"x": 27221.96, "y": 281989.6, "z": -24404.41,
+					"lat": 85.2487, "long": 53.40275
+				},
+				{
+					"x": 17172.49, "y": 273501.2, "z": -24393.81,
+					"lat": 84.18765, "long": 52.14656
+				},
+				{
+					"x": 15358.26, "y": 262107.2, "z": -23004.93,
+					"lat": 82.7634, "long": 51.91978
+				},
+				{
+					"x": 14312.02, "y": 275265.3, "z": -27273.92,
+					"lat": 84.40816, "long": 51.789
+				},
+				{
+					"x": 21594.3, "y": 272016.1, "z": -27278.83,
+					"lat": 84.00201, "long": 52.69929
+				},
+				{
+					"x": 29557.93, "y": 278654.5, "z": -27011.84,
+					"lat": 84.83181, "long": 53.69474
+				},
+				{
+					"x": 37774.64, "y": 279674.7, "z": -27011.84,
+					"lat": 84.95934, "long": 54.72183
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 1, "max": 1 },
+			"intervalBetweenSpawns": { "min": 3600, "max": 7200 },
+			"intervalBetweenMaxedSpawns": { "min": 3600, "max": 7200 }
+		},
+		{
+			"maxCrateNumber": 1,
+			"crateClasses": [ "/Game/PrimalEarth/Structures/ArtifactCrates/ArtifactCrate_1.ArtifactCrate_1_C" ],
+			"crateLocations": [
+				{
+					"x": 54302.83, "y": 264635.2, "z": -24015.99,
+					"lat": 83.0794, "long": 56.78785
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 2, "max": 2 },
+			"intervalBetweenSpawns": { "min": 180, "max": 180 },
+			"intervalBetweenMaxedSpawns": { "min": 180, "max": 180 }
+		},
+		{
+			"maxCrateNumber": 1,
+			"crateClasses": [ "/Game/PrimalEarth/Structures/ArtifactCrates/ArtifactCrate_2.ArtifactCrate_2_C" ],
+			"crateLocations": [
+				{
+					"x": 87072.34, "y": 174852.4, "z": -26578.57,
+					"lat": 71.85655, "long": 60.88404
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 2, "max": 2 },
+			"intervalBetweenSpawns": { "min": 180, "max": 180 },
+			"intervalBetweenMaxedSpawns": { "min": 180, "max": 180 }
+		},
+		{
+			"maxCrateNumber": 3,
+			"crateClasses": [ "/Game/PrimalEarth/Structures/SupplyCrate_Cave_QualityTier2.SupplyCrate_Cave_QualityTier2_C" ],
+			"crateLocations": [
+				{
+					"x": 76119.66, "y": 181041.2, "z": -29741.35,
+					"lat": 72.63015, "long": 59.51496
+				},
+				{
+					"x": 100821.4, "y": 189467.9, "z": -29639.6,
+					"lat": 73.68349, "long": 62.60267
+				},
+				{
+					"x": 88095.3, "y": 196864.8, "z": -31321.8,
+					"lat": 74.6081, "long": 61.01191
+				},
+				{
+					"x": 86868.5, "y": 169913.6, "z": -29450.2,
+					"lat": 71.2392, "long": 60.85856
+				},
+				{
+					"x": 72652.91, "y": 172948.8, "z": -29713.2,
+					"lat": 71.6186, "long": 59.08161
+				},
+				{
+					"x": 76148.5, "y": 169301.2, "z": -28515.6,
+					"lat": 71.16265, "long": 59.51856
+				},
+				{
+					"x": 87283.79, "y": 155650.3, "z": -22780.7,
+					"lat": 69.45629, "long": 60.91047
+				},
+				{
+					"x": 87111.99, "y": 152093, "z": -29602.1,
+					"lat": 69.01162, "long": 60.889
+				},
+				{
+					"x": 86788.5, "y": 148832.3, "z": -28391.7,
+					"lat": 68.60404, "long": 60.84856
+				},
+				{
+					"x": 86787.79, "y": 172024.1, "z": -34459.99,
+					"lat": 71.50301, "long": 60.84847
+				},
+				{
+					"x": 99959.33, "y": 178172.4, "z": -30056.5,
+					"lat": 72.27155, "long": 62.49492
+				},
+				{
+					"x": 102589.7, "y": 179919.6, "z": -30158,
+					"lat": 72.48995, "long": 62.82371
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 1, "max": 1 },
+			"intervalBetweenSpawns": { "min": 3600, "max": 7200 },
+			"intervalBetweenMaxedSpawns": { "min": 3600, "max": 7200 }
+		},
+		{
+			"maxCrateNumber": 1,
+			"crateClasses": [ "/Game/PrimalEarth/Structures/ArtifactCrates/ArtifactCrate_3.ArtifactCrate_3_C" ],
+			"crateLocations": [
+				{
+					"x": 287970.9, "y": 136731.9, "z": -24872.5,
+					"lat": 67.09149, "long": 85.99636
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 2, "max": 2 },
+			"intervalBetweenSpawns": { "min": 180, "max": 180 },
+			"intervalBetweenMaxedSpawns": { "min": 180, "max": 180 }
+		},
+		{
+			"maxCrateNumber": 3,
+			"crateClasses": [ "/Game/PrimalEarth/Structures/SupplyCrate_Cave_QualityTier2.SupplyCrate_Cave_QualityTier2_C" ],
+			"crateLocations": [
+				{
+					"x": 277574.7, "y": 152621.2, "z": -18970.86,
+					"lat": 69.07765, "long": 84.69684
+				},
+				{
+					"x": 275337.2, "y": 166795.7, "z": -19647.4,
+					"lat": 70.84946, "long": 84.41715
+				},
+				{
+					"x": 278609.9, "y": 167080.4, "z": -19370.9,
+					"lat": 70.88505, "long": 84.82624
+				},
+				{
+					"x": 278609.9, "y": 167080.4, "z": -19370.9,
+					"lat": 70.88505, "long": 84.82624
+				},
+				{
+					"x": 268249.8, "y": 149774, "z": -24262.5,
+					"lat": 68.72175, "long": 83.53123
+				},
+				{
+					"x": 267013.9, "y": 148504.4, "z": -24262.5,
+					"lat": 68.56305, "long": 83.37674
+				},
+				{
+					"x": 284651.5, "y": 139123.7, "z": -25074.2,
+					"lat": 67.39046, "long": 85.58144
+				},
+				{
+					"x": 283728.5, "y": 133675.3, "z": -25062.3,
+					"lat": 66.70941, "long": 85.46606
+				},
+				{
+					"x": 296443.5, "y": 149319.2, "z": -24714.3,
+					"lat": 68.6649, "long": 87.05544
+				},
+				{
+					"x": 289481.2, "y": 149806.7, "z": -24530.4,
+					"lat": 68.72584, "long": 86.18515
+				},
+				{
+					"x": 295965.4, "y": 140795.3, "z": -23760,
+					"lat": 67.59941, "long": 86.99568
+				},
+				{
+					"x": 269657.6, "y": 142877.3, "z": -23586.9,
+					"lat": 67.85966, "long": 83.7072
+				},
+				{
+					"x": 298255.8, "y": 145275.8, "z": -22975.3,
+					"lat": 68.15948, "long": 87.28197
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 1, "max": 1 },
+			"intervalBetweenSpawns": { "min": 3600, "max": 7200 },
+			"intervalBetweenMaxedSpawns": { "min": 3600, "max": 7200 }
+		},
+		{
+			"maxCrateNumber": 1,
+			"crateClasses": [ "/Game/PrimalEarth/Structures/ArtifactCrates/ArtifactCrate_5.ArtifactCrate_5_C" ],
+			"crateLocations": [
+				{
+					"x": -32551.65, "y": -83491.41, "z": -7180.081,
+					"lat": 39.56357, "long": 45.93104
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 2, "max": 2 },
+			"intervalBetweenSpawns": { "min": 180, "max": 180 },
+			"intervalBetweenMaxedSpawns": { "min": 180, "max": 180 }
+		},
+		{
+			"maxCrateNumber": 2,
+			"crateClasses": [
+				"/Game/PrimalEarth/Structures/SupplyCrate_Cave_QualityTier1.SupplyCrate_Cave_QualityTier1_C",
+				"/Game/PrimalEarth/Structures/SupplyCrate_Cave_QualityTier2.SupplyCrate_Cave_QualityTier2_C"
+			],
+			"crateLocations": [
+				{
+					"x": -28275.38, "y": -84770.02, "z": -6818.903,
+					"lat": 39.40375, "long": 46.46558
+				},
+				{
+					"x": -28826.3, "y": -79279.3, "z": -7368.601,
+					"lat": 40.09009, "long": 46.39671
+				},
+				{
+					"x": -17310.4, "y": -72899.7, "z": -4296.8,
+					"lat": 40.88754, "long": 47.8362
+				},
+				{
+					"x": -20632, "y": -75710.29, "z": -3898.5,
+					"lat": 40.53621, "long": 47.421
+				},
+				{
+					"x": -32379.1, "y": -86124.6, "z": -7454,
+					"lat": 39.23443, "long": 45.95261
+				},
+				{
+					"x": -26098.1, "y": -83127.72, "z": -6566.399,
+					"lat": 39.60903, "long": 46.73774
+				},
+				{
+					"x": -27765.1, "y": -83031.7, "z": -9625.001,
+					"lat": 39.62104, "long": 46.52936
+				},
+				{
+					"x": -28238.6, "y": -80476.41, "z": -9614.499,
+					"lat": 39.94045, "long": 46.47017
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 1, "max": 1 },
+			"intervalBetweenSpawns": { "min": 3600, "max": 7200 },
+			"intervalBetweenMaxedSpawns": { "min": 3600, "max": 7200 }
+		},
+		{
+			"maxCrateNumber": 1,
+			"crateClasses": [ "/Game/PrimalEarth/Structures/ArtifactCrates/ArtifactCrate_6.ArtifactCrate_6_C" ],
+			"crateLocations": [
+				{
+					"x": -252735.7, "y": -243144.3, "z": -11771.06,
+					"lat": 19.60696, "long": 18.40804
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 2, "max": 2 },
+			"intervalBetweenSpawns": { "min": 180, "max": 180 },
+			"intervalBetweenMaxedSpawns": { "min": 180, "max": 180 }
+		},
+		{
+			"maxCrateNumber": 1,
+			"crateClasses": [
+				"/Game/PrimalEarth/Structures/SupplyCrate_Cave_QualityTier3.SupplyCrate_Cave_QualityTier3_C",
+				"/Game/PrimalEarth/Structures/SupplyCrate_Cave_QualityTier4.SupplyCrate_Cave_QualityTier4_C"
+			],
+			"crateLocations": [
+				{
+					"x": -249917.8, "y": -240425.1, "z": -11741.99,
+					"lat": 19.94686, "long": 18.76028
+				},
+				{
+					"x": -249432.7, "y": -239664.6, "z": -11682.32,
+					"lat": 20.04192, "long": 18.82091
+				},
+				{
+					"x": -247307.7, "y": -241725.5, "z": -11460.22,
+					"lat": 19.78431, "long": 19.08654
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 1, "max": 1 },
+			"intervalBetweenSpawns": { "min": 3600, "max": 7200 },
+			"intervalBetweenMaxedSpawns": { "min": 3600, "max": 7200 }
+		},
+		{
+			"maxCrateNumber": 1,
+			"crateClasses": [ "/Game/PrimalEarth/Structures/ArtifactCrates/ArtifactCrate_7.ArtifactCrate_7_C" ],
+			"crateLocations": [
+				{
+					"x": 275593.1, "y": -271094.4, "z": -25564.44,
+					"lat": 16.1132, "long": 84.44914
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 2, "max": 2 },
+			"intervalBetweenSpawns": { "min": 180, "max": 180 },
+			"intervalBetweenMaxedSpawns": { "min": 180, "max": 180 }
+		},
+		{
+			"maxCrateNumber": 1,
+			"crateClasses": [
+				"/Game/PrimalEarth/Structures/SupplyCrate_Cave_QualityTier2.SupplyCrate_Cave_QualityTier2_C",
+				"/Game/PrimalEarth/Structures/SupplyCrate_Cave_QualityTier4.SupplyCrate_Cave_QualityTier4_C"
+			],
+			"crateLocations": [
+				{
+					"x": 269131.8, "y": -268608.8, "z": -24209.19,
+					"lat": 16.4239, "long": 83.64147
+				},
+				{
+					"x": 276378.1, "y": -268002.1, "z": -19824.1,
+					"lat": 16.49974, "long": 84.54726
+				},
+				{
+					"x": 270363.5, "y": -270392.8, "z": -18282.49,
+					"lat": 16.2009, "long": 83.79544
+				},
+				{
+					"x": 277123.2, "y": -272224.6, "z": -15116.5,
+					"lat": 15.97193, "long": 84.6404
+				},
+				{
+					"x": 272812.6, "y": -272159.6, "z": -18287.78,
+					"lat": 15.98005, "long": 84.10157
+				},
+				{
+					"x": 271757.2, "y": -262467.5, "z": -22129.4,
+					"lat": 17.19156, "long": 83.96965
+				}
+			],
+			"minTimeBetweenSpawnsAtSamePoint": 0,
+			"delayBeforeFirst": { "min": 1, "max": 1 },
+			"intervalBetweenSpawns": { "min": 3600, "max": 7200 },
+			"intervalBetweenMaxedSpawns": { "min": 3600, "max": 7200 }
+		}
+	]
+}

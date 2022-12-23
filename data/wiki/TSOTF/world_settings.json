@@ -1,0 +1,277 @@
+{
+	"$schema": "../.schema/maps_world_settings.json",
+	"version": "458.0.10207839",
+	"core": { "official": true },
+	"format": "2",
+	"persistentLevel": "/Game/Maps/TSOTF/TheIsland_SOTF",
+	"worldSettings": {
+		"name": "The Island_ SOTF",
+		"latOrigin": -400000,
+		"longOrigin": -400000,
+		"latScale": 800,
+		"longScale": 800,
+		"latMulti": 8000,
+		"longMulti": 8000,
+		"latShift": 50,
+		"longShift": 50,
+		"maxDifficulty": 5,
+		"mapTextures": {
+			"held": "/Game/TSOTF/Core/MiniMap/SOTF_Overhead.SOTF_Overhead",
+			"emptyHeld": "/Game/TSOTF/Core/MiniMap/SOTF_Overhead.SOTF_Overhead",
+			"empty": "/Game/TSOTF/Core/MiniMap/SOTF_Overhead.SOTF_Overhead",
+			"big": "/Game/TSOTF/Core/MiniMap/SOTF_Overhead.SOTF_Overhead",
+			"small": "/Game/TSOTF/Core/MiniMap/SOTF_Overhead.SOTF_Overhead"
+		},
+		"randomNPCClassWeights": [
+			{
+				"from": "/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Megalosaurus_Character_BP_TSOTF.Megalosaurus_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Carno_Character_BP_TSOTF.Carno_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Raptor/MegaRaptor_Character_BP.MegaRaptor_Character_BP_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Titanosaur/Titanosaur_Character_BP.Titanosaur_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Titanosaur_Character_BP_TSOTF.Titanosaur_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Gigant_Character_BP_TSOTF.Gigant_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Raptor/BionicRaptor_Character_BP.BionicRaptor_Character_BP_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Amargasaurus_Character_BP_SOTF.Amargasaurus_Character_BP_SOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Trilobite/Trilobite_Character.Trilobite_Character_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Ichthyornis/Ichthyornis_Character_BP.Ichthyornis_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Ichthyornis_Character_BP_TSOTF.Ichthyornis_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Pegomastax/Pegomastax_Character_BP.Pegomastax_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Pegomastax_Character_BP_TSOTF.Pegomastax_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Daeodon_Character_BP_TSOTF.Daeodon_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Carno_Character_BP_TSOTF.Carno_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Therizino_Character_BP_TSOTF.Therizino_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/WoollyRhino/Rhino_Character_BP.Rhino_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Rhino_Character_BP_TSOTF.Rhino_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Allo_Character_BP_TSOTF.Allo_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Spino_Character_BP_TSOTF.Spino_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP.Purlovia_Character_BP_C",
+				"to": [
+					[ 1, "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Leech/Leech_Character.Leech_Character_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Leech_Character_SOTF.Leech_Character_SOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Carcharodontosaurus/Carcha_Character_BP.Carcha_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Carcha_Character_BP_TSOTF.Carcha_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Baryonyx_Character_BP_TSOTF.Baryonyx_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Microraptor/Microraptor_Character_BP.Microraptor_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Microraptor_Character_BP_TSOTF.Microraptor_Character_BP_TSOTF_C" ]
+				]
+			}
+		]
+	},
+	"playerSpawns": [
+		{
+			"regionId": 0,
+			"x": -5880.75, "y": 4725.825, "z": 107330.9,
+			"lat": 50.59073, "long": 49.26491
+		},
+		{
+			"regionId": 0,
+			"x": -8432.011, "y": 1851.426, "z": 107484.4,
+			"lat": 50.23143, "long": 48.946
+		},
+		{
+			"regionId": 0,
+			"x": -7830.387, "y": -1934.181, "z": 107386.1,
+			"lat": 49.75823, "long": 49.0212
+		},
+		{
+			"regionId": 0,
+			"x": -6037.714, "y": -5191.714, "z": 107388.7,
+			"lat": 49.35104, "long": 49.24529
+		},
+		{
+			"regionId": 0,
+			"x": -1332.67, "y": -3184.927, "z": 107041.5,
+			"lat": 49.60188, "long": 49.83342
+		},
+		{
+			"regionId": 0,
+			"x": -1565.43, "y": 2316.69, "z": 107019.2,
+			"lat": 50.28959, "long": 49.80432
+		},
+		{
+			"regionId": 0,
+			"x": 138.7687, "y": -5720.64, "z": 107184.9,
+			"lat": 49.28492, "long": 50.01735
+		},
+		{
+			"regionId": 0,
+			"x": 4113.109, "y": -2927.676, "z": 107118.5,
+			"lat": 49.63404, "long": 50.51414
+		},
+		{
+			"regionId": 0,
+			"x": 4251.325, "y": 3125.374, "z": 107132.5,
+			"lat": 50.39067, "long": 50.53142
+		},
+		{
+			"regionId": 0,
+			"x": -385.7416, "y": 6478.777, "z": 107221.3,
+			"lat": 50.80985, "long": 49.95178
+		},
+		{
+			"regionId": 0,
+			"x": 6492.777, "y": -162.7415, "z": 107222.3,
+			"lat": 49.97966, "long": 50.8116
+		},
+		{
+			"regionId": 0,
+			"x": 5897.954, "y": -6302.471, "z": 107485.3,
+			"lat": 49.21219, "long": 50.73724
+		},
+		{
+			"regionId": 0,
+			"x": 683.331, "y": 312.7105, "z": 106980.6,
+			"lat": 50.03909, "long": 50.08542
+		},
+		{
+			"regionId": 0,
+			"x": 3313.378, "y": 7084.319, "z": 107345.4,
+			"lat": 50.88554, "long": 50.41417
+		},
+		{
+			"regionId": 0,
+			"x": -3652.329, "y": 7207.908, "z": 107398.9,
+			"lat": 50.90099, "long": 49.54346
+		},
+		{
+			"regionId": 0,
+			"x": -4829.848, "y": 55.83809, "z": 107104.9,
+			"lat": 50.00698, "long": 49.39627
+		},
+		{
+			"regionId": 0,
+			"x": -2713.049, "y": -7860.247, "z": 107432.4,
+			"lat": 49.01747, "long": 49.66087
+		}
+	]
+}
