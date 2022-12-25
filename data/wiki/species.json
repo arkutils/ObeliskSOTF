@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/species.json",
-	"version": "458.0.10207839.1",
+	"version": "458.7.10211173",
 	"format": "4",
 	"species": [
 		{
@@ -303,7 +303,7 @@
 			"customTag": "Daeodon",
 			"targetingTeamName": "Carnivores_Medium",
 			"mass": 195,
-			"dragWeight": 120,
+			"dragWeight": 250,
 			"flags": [
 				"allowMountedWeaponry",
 				"allowRiding",
@@ -1171,7 +1171,7 @@
 			"customTag": "Therizinosaurus",
 			"targetingTeamName": "Herbivores_Large_Aggressive",
 			"mass": 222,
-			"dragWeight": 250,
+			"dragWeight": 500,
 			"flags": [
 				"allowRiding",
 				"canBeDragged",
@@ -1224,6 +1224,69 @@
 					}
 				],
 				"baseXP": 18
+			}
+		},
+		{
+			"name": "Thylacoleo",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Thylacoleo_Character_BP_TSOTF.Thylacoleo_Character_BP_TSOTF_C",
+			"dinoNameTag": "Thylacoleo",
+			"customTag": "Thylacoleo",
+			"targetingTeamName": "Carnivores_Medium",
+			"mass": 195,
+			"dragWeight": 400,
+			"flags": [
+				"allowCarryFlyerDinos",
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isCarnivore",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 51 },
+			"cloning": {
+				"costBase": 1250,
+				"costLevel": 55,
+				"timeBase": 8750,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 20,
+				"maxSpeed": 1900
+			},
+			"movementW": {
+				"walk": { "base": 184, "sprint": 1150 },
+				"swim": { "base": 480 }
+			},
+			"movementD": {
+				"walk": { "base": 230, "sprint": 1150 },
+				"swim": { "base": 600 }
+			},
+			"staminaRates": {
+				"sprint": -7,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 0,
+				"defaultSwingRadius": 90,
+				"attacks": [
+					{ "name": "Claw", "interval": 0.2, "dmg": 40, "radius": 250, "stamina": 0 },
+					{ "name": "Release", "interval": 0, "dmg": 0, "radius": 0, "stamina": 0 },
+					{ "name": "Roar", "interval": 0, "dmg": 0, "radius": 160, "stamina": 0 },
+					{ "name": "Pounce", "interval": 0, "dmg": 30, "radius": 0, "stamina": 0 },
+					{ "name": "Maul", "interval": 0, "dmg": 40, "radius": 0, "stamina": 0 }
+				]
+			},
+			"death": {
+				"lootBagChance": 1,
+				"lootBags": [
+					{
+						"chance": 1,
+						"item": "/Game/PrimalEarth/CoreBlueprints/Inventories/DinoDropInventoryComponent_Carnivore_Medium_Thylaco.DinoDropInventoryComponent_Carnivore_Medium_Thylaco"
+					}
+				],
+				"baseXP": 5
 			}
 		},
 		{
