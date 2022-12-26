@@ -16,7 +16,7 @@
 			"version": "458.0.10207839.1"
 		},
 		"species.json": {
-			"version": "458.7.10211173"
+			"version": "460.4.10216570"
 		},
 		"TSOTF/biomes.json": {
 			"version": "458.0.10207839",
@@ -31,7 +31,7 @@
 			"format": "1"
 		},
 		"TSOTF/world_settings.json": {
-			"version": "458.7.10211173",
+			"version": "460.4.10216570",
 			"format": "2"
 		}
 	}

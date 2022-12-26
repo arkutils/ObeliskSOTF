@@ -1,6 +1,6 @@
 {
 	"$schema": "../.schema/maps_world_settings.json",
-	"version": "458.7.10211173",
+	"version": "460.4.10216570",
 	"core": { "official": true },
 	"format": "2",
 	"persistentLevel": "/Game/Maps/TSOTF/TheIsland_SOTF",
@@ -44,7 +44,7 @@
 			{
 				"from": "/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP_C",
 				"to": [
-					[ 1, "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C" ]
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Rex_Character_BP_SOTF.Rex_Character_BP_SOTF_C" ]
 				]
 			},
 			{
@@ -80,7 +80,7 @@
 			{
 				"from": "/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP_C",
 				"to": [
-					[ 1, "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C" ]
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Rex_Character_BP_SOTF.Rex_Character_BP_SOTF_C" ]
 				]
 			},
 			{
@@ -189,6 +189,36 @@
 				"from": "/Game/PrimalEarth/Dinos/Microraptor/Microraptor_Character_BP.Microraptor_Character_BP_C",
 				"to": [
 					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Microraptor_Character_BP_TSOTF.Microraptor_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Rex_Character_BP_SOTF.Rex_Character_BP_SOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Direwolf_Character_BP_SOTF.Direwolf_Character_BP_SOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Saber/Saber_Character_BP.Saber_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Saber_Character_BP_SOTF.Saber_Character_BP_SOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Hesperornis/Hesperornis_Character_BP.Hesperornis_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Hesperornis_Character_BP_SOTF.Hesperornis_Character_BP_SOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Archa_Character_BP_SOTF.Archa_Character_BP_SOTF_C" ]
 				]
 			}
 		]

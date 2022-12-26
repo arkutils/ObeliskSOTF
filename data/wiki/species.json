@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/species.json",
-	"version": "458.7.10211173",
+	"version": "460.4.10216570",
 	"format": "4",
 	"species": [
 		{
@@ -125,6 +125,51 @@
 			}
 		},
 		{
+			"name": "Archaeopteryx",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Archa_Character_BP_SOTF.Archa_Character_BP_SOTF_C",
+			"dinoNameTag": "Archa",
+			"customTag": "Archa",
+			"targetingTeamName": "Carnivores_Low",
+			"mass": 50,
+			"dragWeight": 50,
+			"flags": [
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"canMountOnHumans",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 14 },
+			"cloning": {
+				"costBase": 325,
+				"costLevel": 38.5,
+				"timeBase": 2275,
+				"timeLevel": 269.5
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 150, "sprint": 588 },
+				"swim": { "base": 300 }
+			},
+			"movementD": {
+				"walk": { "base": 105, "sprint": 411.6 },
+				"swim": { "base": 210 }
+			},
+			"staminaRates": {
+				"sprint": -5,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 5,
+				"defaultSwingRadius": 90,
+				"attacks": [ { "name": "Melee", "interval": 0.25, "dmg": 5, "radius": 90, "stamina": 0 } ]
+			},
+			"death": { "baseXP": 0.5 }
+		},
+		{
 			"name": "Baryonyx",
 			"bp": "/Game/TSOTF/Core/Dinos/TBD/Baryonyx_Character_BP_TSOTF.Baryonyx_Character_BP_TSOTF_C",
 			"dinoNameTag": "Baryonyx",
@@ -212,18 +257,18 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 1120, "sprint": 2241.1 }
+				"walk": { "base": 952, "sprint": 1905 }
 			},
 			"movementD": {
-				"walk": { "base": 1120, "sprint": 2241.1 }
+				"walk": { "base": 952, "sprint": 1905 }
 			},
 			"staminaRates": { "sprint": -29 },
 			"attack": {
-				"defaultDmg": 440,
+				"defaultDmg": 396,
 				"defaultSwingRadius": 850,
 				"attacks": [
-					{ "name": "Bite", "interval": 0, "dmg": 320, "radius": 700, "stamina": 5 },
-					{ "name": "Tailspin", "interval": 1.25, "dmg": 230, "radius": 900, "stamina": 40 },
+					{ "name": "Bite", "interval": 0, "dmg": 288, "radius": 700, "stamina": 5 },
+					{ "name": "Tailspin", "interval": 1.25, "dmg": 207, "radius": 900, "stamina": 40 },
 					{ "name": "Roar", "interval": 1, "dmg": 0, "radius": 0, "stamina": 0 }
 				]
 			},
@@ -430,6 +475,66 @@
 			}
 		},
 		{
+			"name": "Direwolf",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Direwolf_Character_BP_SOTF.Direwolf_Character_BP_SOTF_C",
+			"dinoNameTag": "Direwolf",
+			"customTag": "Direwolf",
+			"targetingTeamName": "Carnivores_Medium",
+			"mass": 195,
+			"dragWeight": 120,
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isCarnivore",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 58 },
+			"cloning": {
+				"costBase": 1450,
+				"costLevel": 55,
+				"timeBase": 10150,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 223.2, "sprint": 1017.8 },
+				"swim": { "base": 240 }
+			},
+			"movementD": {
+				"walk": { "base": 223.2, "sprint": 1017.8 },
+				"swim": { "base": 240 }
+			},
+			"staminaRates": {
+				"sprint": -10,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 33,
+				"defaultSwingRadius": 160,
+				"attacks": [
+					{ "name": "None", "interval": 0.08, "dmg": 33, "radius": 160, "stamina": 5 },
+					{ "name": "Howl", "interval": 180, "dmg": 0, "radius": 0, "stamina": 35 },
+					{ "name": "Sniff", "interval": 0.5, "dmg": 0, "radius": 0, "stamina": 85 }
+				]
+			},
+			"death": {
+				"lootBagChance": 0.3,
+				"lootBags": [
+					{
+						"chance": 1,
+						"item": "/Game/PrimalEarth/CoreBlueprints/Inventories/DinoDropInventoryComponent_Carnivore_Medium.DinoDropInventoryComponent_Carnivore_Medium"
+					}
+				],
+				"baseXP": 6
+			}
+		},
+		{
 			"name": "Dragon",
 			"bp": "/Game/TSOTF/Core/Dinos/TBD/Dragon_Character_BP_TSOTF.Dragon_Character_BP_TSOTF_C",
 			"dinoNameTag": "Dragon",
@@ -600,6 +705,62 @@
 				],
 				"baseXP": 3000
 			}
+		},
+		{
+			"name": "Hesperornis",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Hesperornis_Character_BP_SOTF.Hesperornis_Character_BP_SOTF_C",
+			"dinoNameTag": "Hesperornis",
+			"customTag": "Hesperornis",
+			"targetingTeamName": "Carnivores_Low",
+			"mass": 50,
+			"dragWeight": 70,
+			"flags": [
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"canMountOnHumans",
+				"isAmphibious",
+				"isCarnivore",
+				"isFlyerDino",
+				"isWaterDino",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 26 },
+			"cloning": {
+				"costBase": 625,
+				"costLevel": 55,
+				"timeBase": 4375,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 0,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 125, "sprint": 187.5 },
+				"fly": { "base": 450, "sprint": 675 },
+				"swim": { "base": 210, "sprint": 420 }
+			},
+			"movementD": {
+				"walk": { "base": 125, "sprint": 187.5 },
+				"fly": { "base": 450, "sprint": 675 },
+				"swim": { "base": 210, "sprint": 420 }
+			},
+			"staminaRates": {
+				"sprint": -4,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 0,
+				"defaultSwingRadius": 90,
+				"attacks": [
+					{ "name": "Land Bite", "interval": 0.2, "dmg": 1, "radius": 50, "stamina": 0 },
+					{ "name": "dive", "interval": 10, "dmg": 0, "radius": 105, "stamina": 0 },
+					{ "name": "Dive Bite", "interval": 0.2, "dmg": 25, "radius": 100, "stamina": 0 },
+					{ "name": "Atop Water Bite", "interval": 0.2, "dmg": 10, "radius": 150, "stamina": 0 }
+				]
+			},
+			"death": { "baseXP": 0.5 }
 		},
 		{
 			"name": "Ichthyornis",
@@ -867,6 +1028,67 @@
 			"death": { "baseXP": 0.5 }
 		},
 		{
+			"name": "Rex",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Rex_Character_BP_SOTF.Rex_Character_BP_SOTF_C",
+			"dinoNameTag": "Rex",
+			"customTag": "Rex",
+			"targetingTeamName": "Carnivores_High",
+			"mass": 400,
+			"dragWeight": 550,
+			"flags": [
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"doStepDamage",
+				"isBigDino",
+				"isCarnivore",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 87 },
+			"cloning": {
+				"costBase": 2175,
+				"costLevel": 55,
+				"timeBase": 15225,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 515, "sprint": 736.4 },
+				"swim": { "base": 300 }
+			},
+			"movementD": {
+				"walk": { "base": 515, "sprint": 1104.7 },
+				"swim": { "base": 300 }
+			},
+			"staminaRates": {
+				"sprint": -40,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 60,
+				"defaultSwingRadius": 300,
+				"attacks": [
+					{ "name": "Bite", "interval": 0.4, "dmg": 62, "radius": 300, "stamina": 0 },
+					{ "name": "Roar", "interval": 60, "dmg": 0, "radius": 0, "stamina": 0 },
+					{ "name": "Bite (AI)", "interval": 0.4, "dmg": 62, "radius": 300, "stamina": 0 }
+				]
+			},
+			"death": {
+				"lootBagChance": 1,
+				"lootBags": [
+					{
+						"chance": 1,
+						"item": "/Game/PrimalEarth/CoreBlueprints/Inventories/DinoDropInventoryComponent_Carnivore_Huge_Rex.DinoDropInventoryComponent_Carnivore_Huge_Rex"
+					}
+				],
+				"baseXP": 30
+			}
+		},
+		{
 			"name": "Woolly Rhino",
 			"bp": "/Game/TSOTF/Core/Dinos/TBD/Rhino_Character_BP_Child.Rhino_Character_BP_Child_C",
 			"dinoNameTag": "Rhino",
@@ -986,6 +1208,66 @@
 					}
 				],
 				"baseXP": 4
+			}
+		},
+		{
+			"name": "Sabertooth",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Saber_Character_BP_SOTF.Saber_Character_BP_SOTF_C",
+			"dinoNameTag": "Sabertooth",
+			"customTag": "Sabertooth",
+			"targetingTeamName": "Carnivores_Medium",
+			"mass": 195,
+			"dragWeight": 120,
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isCarnivore",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 49 },
+			"cloning": {
+				"costBase": 1200,
+				"costLevel": 55,
+				"timeBase": 8400,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 25,
+				"maxSpeed": 1850
+			},
+			"movementW": {
+				"walk": { "base": 230, "sprint": 920 },
+				"swim": { "base": 300 }
+			},
+			"movementD": {
+				"walk": { "base": 230, "sprint": 1150 },
+				"swim": { "base": 300 }
+			},
+			"movementR": {
+				"walk": { "base": 207, "sprint": 1035 },
+				"swim": { "base": 270 }
+			},
+			"staminaRates": {
+				"sprint": -7,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 29,
+				"defaultSwingRadius": 160,
+				"attacks": [ { "name": "None", "interval": 0.2, "dmg": 29, "radius": 160, "stamina": 0 } ]
+			},
+			"death": {
+				"lootBagChance": 0.3,
+				"lootBags": [
+					{
+						"chance": 1,
+						"item": "/Game/PrimalEarth/CoreBlueprints/Inventories/DinoDropInventoryComponent_Carnivore_Medium.DinoDropInventoryComponent_Carnivore_Medium"
+					}
+				],
+				"baseXP": 5
 			}
 		},
 		{
@@ -1191,15 +1473,15 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 466, "sprint": 978.6 },
+				"walk": { "base": 419.4, "sprint": 880.7 },
 				"swim": { "base": 300 }
 			},
 			"movementD": {
-				"walk": { "base": 466, "sprint": 1304.8 },
+				"walk": { "base": 419.4, "sprint": 1174.3 },
 				"swim": { "base": 300 }
 			},
 			"movementR": {
-				"walk": { "base": 466, "sprint": 1109.1 },
+				"walk": { "base": 419.4, "sprint": 998.2 },
 				"swim": { "base": 300 }
 			},
 			"staminaRates": {
@@ -1207,12 +1489,12 @@
 				"swimOrFly": -3
 			},
 			"attack": {
-				"defaultDmg": 52,
+				"defaultDmg": 41,
 				"defaultSwingRadius": 110,
 				"attacks": [
-					{ "name": "ClawAttack", "interval": 0.4, "dmg": 42, "radius": 225, "stamina": 0 },
-					{ "name": "ClawHarvest", "interval": 0.4, "dmg": 5, "radius": 250, "stamina": 0 },
-					{ "name": "BiteHarvest", "interval": 4, "dmg": 42, "radius": 225, "stamina": 0 }
+					{ "name": "ClawAttack", "interval": 0.4, "dmg": 33, "radius": 225, "stamina": 0 },
+					{ "name": "ClawHarvest", "interval": 0.4, "dmg": 4, "radius": 250, "stamina": 0 },
+					{ "name": "BiteHarvest", "interval": 4, "dmg": 33, "radius": 225, "stamina": 0 }
 				]
 			},
 			"death": {
