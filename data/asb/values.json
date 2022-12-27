@@ -1,5 +1,5 @@
 {
-	"version": "460.4.10216570",
+	"version": "462.5.10220161",
 	"format": "1.14-flyerspeed",
 	"species": [
 		{
@@ -1054,8 +1054,8 @@
 			"name": "Direwolf",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Direwolf_Character_BP_SOTF.Direwolf_Character_BP_SOTF",
 			"fullStatsRaw": [
-				[ 400, 0.2, 0.27, 0.66, 0 ],
-				[ 400, 0.1, 0.1, 0, 0 ],
+				[ 450, 0.2, 0.27, 0.66, 0 ],
+				[ 260, 0.1, 0.1, 0, 0 ],
 				[ 450, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
 				[ 1200, 0.1, 0.1, 0, 0.15 ],
@@ -1067,10 +1067,7 @@
 				null,
 				null
 			],
-			"altBaseStats": {
-				"0": 330,
-				"1": 260
-			},
+			"altBaseStats": { "0": 330 },
 			"immobilizedBy": [ "Bola", "Bear Trap", "Large Bear Trap", "Plant Species Y" ],
 			"breeding": {
 				"gestationTime": 15037.594,
@@ -1515,6 +1512,143 @@
 			"displayedStats": 927
 		},
 		{
+			"name": "Kentrosaurus",
+			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Kentro_Character_BP_TSOTF.Kentro_Character_BP_TSOTF",
+			"fullStatsRaw": [
+				[ 715, 0.2, 0.27, 0.5, 0 ],
+				[ 350, 0.1, 0.1, 0, 0 ],
+				[ 500, 0.06, 0, 0.5, 0 ],
+				[ 150, 0.1, 0.1, 0, 0 ],
+				[ 6000, 0.1, 0.1, 0, 0 ],
+				null,
+				null,
+				[ 500, 0.02, 0.04, 0, 0 ],
+				[ 1, 0.05, 0.1, 0.5, 0.4 ],
+				[ 1, 0, 0.01, 0, 0 ],
+				null,
+				null
+			],
+			"altBaseStats": {
+				"0": 650,
+				"1": 300
+			},
+			"immobilizedBy": [ "Chain Bola", "Bear Trap", "Large Bear Trap", "Plant Species Y" ],
+			"breeding": {
+				"gestationTime": 0,
+				"incubationTime": 9999.20006,
+				"eggTempMin": 24,
+				"eggTempMax": 30,
+				"maturationTime": 185185.185,
+				"matingCooldownMin": 64800,
+				"matingCooldownMax": 172800
+			},
+			"colors": [
+				{
+					"name": "Body Main",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Dark Orange",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green",
+						"DragonBase0",
+						"DragonGreen0"
+					]
+				},
+				{
+					"name": "Plates Main",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Dark Orange",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"DragonBase0",
+						"DragonBase1",
+						"DragonFire",
+						"DragonGreen0",
+						"DragonGreen1",
+						"DragonGreen3"
+					]
+				},
+				{
+					"name": "Spikes",
+					"colors": [
+						"BigFoot4",
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"DragonGreen2",
+						"NearBlack",
+						"WolfFur"
+					]
+				},
+				{
+					"name": "Plates Highlights",
+					"colors": [
+						"BigFoot5",
+						"Black",
+						"Dark Grey",
+						"Dino Dark Orange",
+						"Dino Light Blue",
+						"Dino Light Brown",
+						"Dino Light Green",
+						"Dino Medium Brown",
+						"DragonBase1",
+						"DragonFire"
+					]
+				},
+				{
+					"name": "Body Highlights",
+					"colors": [
+						"Black",
+						"Dino Dark Brown",
+						"Dino Dark Orange",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"DragonBase0",
+						"DragonGreen0",
+						"DragonGreen3",
+						"NearBlack",
+						"WyvernBlue1",
+						"WyvernPurple0"
+					]
+				},
+				{
+					"name": "Underbelly",
+					"colors": [
+						"BigFoot0",
+						"BigFoot4",
+						"BigFoot5",
+						"Black",
+						"Dino Light Brown",
+						"Dino Light Orange",
+						"Dino Medium Brown",
+						"Light Grey"
+					]
+				}
+			],
+			"taming": {
+				"nonViolent": false,
+				"violent": true,
+				"tamingIneffectiveness": 0.1,
+				"affinityNeeded0": 5500,
+				"affinityIncreasePL": 285,
+				"torporDepletionPS0": 0.3,
+				"foodConsumptionBase": 0.005341,
+				"foodConsumptionMult": 208.0343,
+				"babyFoodConsumptionMult": 510
+			},
+			"TamedBaseHealthMultiplier": 1,
+			"displayedStats": 927
+		},
+		{
 			"name": "Leech",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Leech_Character_SOTF.Leech_Character_SOTF",
 			"fullStatsRaw": [
@@ -1643,6 +1777,84 @@
 				"Cnt_Head_JNT_SKL": 3,
 				"Cnt_Neck_002_JNT_SKL": 3,
 				"Cnt_Neck_000_JNT_SKL": 3
+			},
+			"TamedBaseHealthMultiplier": 1,
+			"displayedStats": 927
+		},
+		{
+			"name": "Megatherium",
+			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Megatherium_Character_BP_TSOTF.Megatherium_Character_BP_TSOTF",
+			"fullStatsRaw": [
+				[ 740, 0.2, 0.27, 0.5, 0 ],
+				[ 400, 0.1, 0.1, 0, 0 ],
+				[ 1000, 0.06, 0, 0.5, 0 ],
+				[ 270, 0.1, 0.1, 0, 0 ],
+				[ 3000, 0.1, 0.1, 0, 0 ],
+				null,
+				null,
+				[ 725, 0.02, 0.045, 0, 0 ],
+				[ 1, 0.05, 0.1, 0.5, 0.4 ],
+				[ 1, 0, 0.01, 0, 0 ],
+				null,
+				null
+			],
+			"immobilizedBy": [ "Chain Bola", "Large Bear Trap" ],
+			"breeding": {
+				"gestationTime": 28571.4286,
+				"incubationTime": 0,
+				"maturationTime": 333333.333,
+				"matingCooldownMin": 64800,
+				"matingCooldownMax": 172800
+			},
+			"colors": [
+				{
+					"name": "BodyMain",
+					"colors": [
+						"BigFoot0",
+						"BigFoot4",
+						"BigFoot5",
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Dark Orange",
+						"Dino Darker Grey",
+						"Dino Light Brown",
+						"Dino Light Orange",
+						"Dino Medium Brown",
+						"Light Grey"
+					]
+				},
+				null,
+				null,
+				null,
+				null,
+				{
+					"name": "Feet and Hands",
+					"colors": [
+						"BigFoot0",
+						"BigFoot4",
+						"BigFoot5",
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Darker Grey",
+						"Dino Light Brown",
+						"Dino Light Orange",
+						"Dino Medium Brown",
+						"Light Grey"
+					]
+				}
+			],
+			"taming": {
+				"nonViolent": false,
+				"violent": true,
+				"tamingIneffectiveness": 1.25,
+				"affinityNeeded0": 5000,
+				"affinityIncreasePL": 130,
+				"torporDepletionPS0": 0.9,
+				"foodConsumptionBase": 0.003156,
+				"foodConsumptionMult": 150,
+				"babyFoodConsumptionMult": 510
 			},
 			"TamedBaseHealthMultiplier": 1,
 			"displayedStats": 927
@@ -1922,7 +2134,7 @@
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Rex_Character_BP_SOTF.Rex_Character_BP_SOTF",
 			"fullStatsRaw": [
 				[ 1100, 0.2, 0.27, 0.5, 0 ],
-				[ 546, 0.1, 0.1, 0, 0 ],
+				[ 588, 0.1, 0.1, 0, 0 ],
 				[ 1550, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
 				[ 3000, 0.1, 0.1, 0, 0 ],
@@ -2295,8 +2507,8 @@
 			"name": "Sabertooth",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Saber_Character_BP_SOTF.Saber_Character_BP_SOTF",
 			"fullStatsRaw": [
-				[ 300, 0.2, 0.27, 0.5, 0 ],
-				[ 300, 0.1, 0.1, 0, 0 ],
+				[ 250, 0.2, 0.27, 0.5, 0 ],
+				[ 200, 0.1, 0.1, 0, 0 ],
 				[ 500, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
 				[ 1200, 0.1, 0.1, 0, 0.15 ],
@@ -2308,10 +2520,6 @@
 				null,
 				null
 			],
-			"altBaseStats": {
-				"0": 250,
-				"1": 200
-			},
 			"immobilizedBy": [ "Bola", "Bear Trap", "Large Bear Trap", "Plant Species Y" ],
 			"breeding": {
 				"gestationTime": 15037.594,
@@ -2739,11 +2947,161 @@
 			"displayedStats": 927
 		},
 		{
+			"name": "Stegosaurus",
+			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Stego_Character_BP_TSOTF.Stego_Character_BP_TSOTF",
+			"fullStatsRaw": [
+				[ 700, 0.2, 0.27, 0.5, 0 ],
+				[ 350, 0.1, 0.1, 0, 0 ],
+				[ 500, 0.06, 0, 0.5, 0 ],
+				[ 150, 0.1, 0.1, 0, 0 ],
+				[ 6000, 0.1, 0.1, 0, 0 ],
+				null,
+				null,
+				[ 500, 0.02, 0.04, 0, 0 ],
+				[ 1, 0.05, 0.1, 0.5, 0.4 ],
+				[ 1, 0, 0.02, 0.964, 0 ],
+				null,
+				null
+			],
+			"altBaseStats": {
+				"0": 650,
+				"1": 300
+			},
+			"immobilizedBy": [ "Chain Bola", "Large Bear Trap", "Plant Species Y" ],
+			"breeding": {
+				"gestationTime": 0,
+				"incubationTime": 9999.20006,
+				"eggTempMin": 22,
+				"eggTempMax": 28,
+				"maturationTime": 185185.185,
+				"matingCooldownMin": 64800,
+				"matingCooldownMax": 172800
+			},
+			"colors": [
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"BigFoot0",
+						"BigFoot4",
+						"BigFoot5",
+						"Black",
+						"Cream",
+						"Dino Light Blue",
+						"Dino Light Brown",
+						"Dino Light Orange",
+						"Dino Light Purple",
+						"Dino Light Yellow",
+						"Dino Medium Brown",
+						"Light Grey",
+						"WolfFur"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dino Light Brown",
+						"Dino Light Green",
+						"Dino Light Orange",
+						"Dino Light Yellow",
+						"Dino Medium Brown",
+						"Dino Medium Green",
+						"Light Grey"
+					]
+				}
+			],
+			"taming": {
+				"nonViolent": false,
+				"violent": true,
+				"tamingIneffectiveness": 0.1,
+				"affinityNeeded0": 6000,
+				"affinityIncreasePL": 300,
+				"torporDepletionPS0": 0.3,
+				"foodConsumptionBase": 0.005341,
+				"foodConsumptionMult": 208.0343,
+				"babyFoodConsumptionMult": 510
+			},
+			"boneDamageAdjusters": {
+				"Cnt_Head_JNT_SKL": 1.67,
+				"Cnt_Jaw_JNT_SKL": 1.67,
+				"Cnt_Neck_004_JNT_SKL": 1.67,
+				"Cnt_Spine_002_JNT_SKL": 0.7,
+				"Cnt_Spine_001_JNT_SKL": 0.7,
+				"Cnt_Spine_000_JNT_SKL": 0.7,
+				"Cnt_Spine_003_JNT_SKL": 0.7,
+				"Cnt_Tail_000_JNT_SKL": 0.7
+			},
+			"TamedBaseHealthMultiplier": 1,
+			"displayedStats": 927
+		},
+		{
 			"name": "Therizinosaur",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Therizino_Character_BP_TSOTF.Therizino_Character_BP_TSOTF",
 			"fullStatsRaw": [
 				[ 696, 0.2, 0.27, 0.5, 0 ],
-				[ 300, 0.1, 0.1, 0, 0 ],
+				[ 270, 0.1, 0.1, 0, 0 ],
 				[ 925, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
 				[ 3000, 0.1, 0.1, 0, 0 ],
@@ -2755,7 +3113,10 @@
 				null,
 				null
 			],
-			"altBaseStats": { "0": 870 },
+			"altBaseStats": {
+				"0": 870,
+				"1": 300
+			},
 			"immobilizedBy": [ "Chain Bola", "Large Bear Trap", "Plant Species Y" ],
 			"breeding": {
 				"gestationTime": 0,
@@ -2851,8 +3212,8 @@
 			"name": "Thylacoleo",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Thylacoleo_Character_BP_TSOTF.Thylacoleo_Character_BP_TSOTF",
 			"fullStatsRaw": [
-				[ 595, 0.2, 0.189, 0.5, 0 ],
-				[ 250, 0.1, 0.1, 0, 0 ],
+				[ 600, 0.2, 0.189, 0.5, 0 ],
+				[ 225, 0.1, 0.1, 0, 0 ],
 				[ 700, 0.06, 0, 0.5, 0 ],
 				[ 200, 0.1, 0.1, 0, 0 ],
 				[ 1500, 0.1, 0.1, 0, 0.15 ],
@@ -3064,6 +3425,383 @@
 				"babyFoodConsumptionMult": 510
 			},
 			"TamedBaseHealthMultiplier": 1.8,
+			"displayedStats": 927
+		},
+		{
+			"name": "Beelzebufo",
+			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Toad_Character_BP_TSOTF.Toad_Character_BP_TSOTF",
+			"fullStatsRaw": [
+				[ 220, 0.2, 0.27, 0.5, 0 ],
+				[ 190, 0.1, 0.1, 0, 0 ],
+				[ 200, 0.06, 0, 0.5, 0 ],
+				[ 150, 0.1, 0.1, 0, 0 ],
+				[ 1500, 0.1, 0.1, 0, 0 ],
+				null,
+				null,
+				[ 160, 0.02, 0.04, 0, 0 ],
+				[ 1, 0.05, 0.1, 0.2, 0.25 ],
+				[ 1, 0, 0.01, 1, 0 ],
+				null,
+				null
+			],
+			"immobilizedBy": [ "Bola", "Bear Trap", "Plant Species Y" ],
+			"breeding": {
+				"gestationTime": 0,
+				"incubationTime": 17998.5601,
+				"eggTempMin": -75,
+				"eggTempMax": 75,
+				"maturationTime": 133333.333,
+				"matingCooldownMin": 64800,
+				"matingCooldownMax": 172800
+			},
+			"colors": [
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Albino",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Light Blue",
+						"Dino Light Brown",
+						"Dino Light Green",
+						"Dino Light Orange",
+						"Dino Light Purple",
+						"Dino Light Red",
+						"Dino Light Yellow",
+						"Dino Medium Brown",
+						"Dino Medium Green",
+						"Light Grey"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Albino",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Light Blue",
+						"Dino Light Brown",
+						"Dino Light Green",
+						"Dino Light Orange",
+						"Dino Light Purple",
+						"Dino Light Red",
+						"Dino Light Yellow",
+						"Dino Medium Brown",
+						"Dino Medium Green",
+						"Light Grey"
+					]
+				},
+				null,
+				null,
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Albino",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Light Blue",
+						"Dino Light Brown",
+						"Dino Light Green",
+						"Dino Light Orange",
+						"Dino Light Purple",
+						"Dino Light Red",
+						"Dino Light Yellow",
+						"Dino Medium Brown",
+						"Dino Medium Green",
+						"Light Grey"
+					]
+				}
+			],
+			"taming": {
+				"nonViolent": false,
+				"violent": true,
+				"tamingIneffectiveness": 0.4,
+				"affinityNeeded0": 1800,
+				"affinityIncreasePL": 75,
+				"torporDepletionPS0": 0.6666,
+				"foodConsumptionBase": 0.001929,
+				"foodConsumptionMult": 648.0041,
+				"babyFoodConsumptionMult": 510
+			},
+			"TamedBaseHealthMultiplier": 1,
+			"displayedStats": 919
+		},
+		{
+			"name": "Triceratops",
+			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Trike_Character_BP_TSOTF.Trike_Character_BP_TSOTF",
+			"fullStatsRaw": [
+				[ 415, 0.2, 0.27, 0.5, 0 ],
+				[ 200, 0.1, 0.1, 0, 0 ],
+				[ 250, 0.06, 0, 0.5, 0 ],
+				[ 150, 0.1, 0.1, 0, 0 ],
+				[ 3000, 0.1, 0.1, 0, 0 ],
+				null,
+				null,
+				[ 365, 0.02, 0.04, 0, 0 ],
+				[ 1, 0.05, 0.1, 0.5, 0.4 ],
+				[ 1, 0, 0.015, 1.2, 0 ],
+				null,
+				null
+			],
+			"altBaseStats": {
+				"0": 375,
+				"1": 150
+			},
+			"immobilizedBy": [ "Chain Bola", "Large Bear Trap", "Plant Species Y" ],
+			"breeding": {
+				"gestationTime": 0,
+				"incubationTime": 8999.28006,
+				"eggTempMin": 22,
+				"eggTempMax": 28,
+				"maturationTime": 166666.667,
+				"matingCooldownMin": 64800,
+				"matingCooldownMax": 172800
+			},
+			"colors": [
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				null,
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dino Light Brown",
+						"Dino Light Green",
+						"Dino Light Orange",
+						"Dino Light Yellow",
+						"Dino Medium Brown",
+						"Dino Medium Green",
+						"Light Grey"
+					]
+				}
+			],
+			"taming": {
+				"nonViolent": false,
+				"violent": true,
+				"tamingIneffectiveness": 0.2,
+				"affinityNeeded0": 3000,
+				"affinityIncreasePL": 150,
+				"torporDepletionPS0": 0.3,
+				"foodConsumptionBase": 0.003156,
+				"foodConsumptionMult": 352.0631,
+				"babyFoodConsumptionMult": 510
+			},
+			"boneDamageAdjusters": {
+				"c_head": 0.15,
+				"c_jaw": 0.15
+			},
+			"TamedBaseHealthMultiplier": 1,
+			"displayedStats": 927
+		},
+		{
+			"name": "Yutyrannus",
+			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Yutyrannus_Character_BP_TSOTF.Yutyrannus_Character_BP_TSOTF",
+			"fullStatsRaw": [
+				[ 1100, 0.2, 0.27, 0.5, 0 ],
+				[ 500, 0.1, 0.1, 0, 0 ],
+				[ 1550, 0.06, 0, 0.5, 0 ],
+				[ 150, 0.1, 0.1, 0, 0 ],
+				[ 3000, 0.1, 0.1, 0, 0 ],
+				null,
+				null,
+				[ 500, 0.02, 0.04, 0, 0 ],
+				[ 1, 0.05, 0.1, 0.5, 0.4 ],
+				[ 1, 0, 0.01, 0, 0 ],
+				null,
+				null
+			],
+			"altBaseStats": { "1": 420 },
+			"immobilizedBy": [ "Chain Bola", "Large Bear Trap" ],
+			"breeding": {
+				"gestationTime": 0,
+				"incubationTime": 17998.5601,
+				"eggTempMin": 32,
+				"eggTempMax": 34,
+				"maturationTime": 666666.667,
+				"matingCooldownMin": 64800,
+				"matingCooldownMax": 172800
+			},
+			"colors": [
+				{
+					"name": "Body Main",
+					"colors": [
+						"BigFoot0",
+						"Black",
+						"Dark Grey",
+						"DarkWolfFur",
+						"Dino Dark Brown",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"DragonGreen2",
+						"White",
+						"WolfFur"
+					]
+				},
+				{
+					"name": "Facial crest",
+					"colors": [
+						"BigFoot4",
+						"Black",
+						"Dark Grey",
+						"DarkWolfFur",
+						"Dino Dark Brown",
+						"Dino Dark Orange",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"DragonBase0"
+					]
+				},
+				null,
+				null,
+				{
+					"name": "Facial Highlights and Stripes",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Dark Orange",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"DragonBase1",
+						"DragonFire",
+						"DragonGreen1",
+						"DragonGreen3",
+						"White"
+					]
+				},
+				{
+					"name": "Feet and Hands",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Brown",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"DragonBase0",
+						"DragonBase1",
+						"White",
+						"WyvernPurple0"
+					]
+				}
+			],
+			"taming": {
+				"nonViolent": false,
+				"violent": true,
+				"tamingIneffectiveness": 1.25,
+				"affinityNeeded0": 4250,
+				"affinityIncreasePL": 175,
+				"torporDepletionPS0": 0.725,
+				"foodConsumptionBase": 0.002314,
+				"foodConsumptionMult": 180.0634,
+				"babyFoodConsumptionMult": 510
+			},
+			"TamedBaseHealthMultiplier": 1,
 			"displayedStats": 927
 		}
 	],
