@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/species.json",
-	"version": "460.4.10216570",
+	"version": "462.5.10220161",
 	"format": "4",
 	"species": [
 		{
@@ -515,10 +515,10 @@
 				"swimOrFly": -3
 			},
 			"attack": {
-				"defaultDmg": 33,
+				"defaultDmg": 40,
 				"defaultSwingRadius": 160,
 				"attacks": [
-					{ "name": "None", "interval": 0.08, "dmg": 33, "radius": 160, "stamina": 5 },
+					{ "name": "None", "interval": 0.08, "dmg": 40, "radius": 160, "stamina": 5 },
 					{ "name": "Howl", "interval": 180, "dmg": 0, "radius": 0, "stamina": 35 },
 					{ "name": "Sniff", "interval": 0.5, "dmg": 0, "radius": 0, "stamina": 85 }
 				]
@@ -820,6 +820,49 @@
 			"death": { "baseXP": 3 }
 		},
 		{
+			"name": "Kentrosaurus",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Kentro_Character_BP_TSOTF.Kentro_Character_BP_TSOTF_C",
+			"dinoNameTag": "Kentro",
+			"customTag": "Kentro",
+			"targetingTeamName": "Herbivores_Medium_Aggressive",
+			"mass": 200,
+			"dragWeight": 250,
+			"flags": [ "allowMountedWeaponry", "canBeDragged", "canBeTorpid", "isTameable" ],
+			"leveling": { "mutagenCost": 38 },
+			"cloning": {
+				"costBase": 925,
+				"costLevel": 55,
+				"timeBase": 6475,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 165, "sprint": 660 },
+				"swim": { "base": 300 }
+			},
+			"movementD": {
+				"walk": { "base": 165, "sprint": 660 },
+				"swim": { "base": 300 }
+			},
+			"staminaRates": {
+				"sprint": -20,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 42,
+				"defaultSwingRadius": 450,
+				"attacks": [
+					{ "name": "Bite", "interval": 0.5, "dmg": 10, "radius": 200, "stamina": 0 },
+					{ "name": "TailSwipe", "interval": 0.5, "dmg": 42, "radius": 125, "stamina": 0 },
+					{ "name": "TailSlam", "interval": 0.5, "dmg": 42, "radius": 200, "stamina": 0 }
+				]
+			},
+			"death": { "baseXP": 5 }
+		},
+		{
 			"name": "Leech",
 			"bp": "/Game/TSOTF/Core/Dinos/TBD/Leech_Character_SOTF.Leech_Character_SOTF_C",
 			"dinoNameTag": "Leech",
@@ -922,6 +965,59 @@
 				],
 				"baseXP": 25
 			}
+		},
+		{
+			"name": "Megatherium",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Megatherium_Character_BP_TSOTF.Megatherium_Character_BP_TSOTF_C",
+			"dinoNameTag": "Megatherium",
+			"customTag": "Megatherium",
+			"targetingTeamName": "Carnivores_High",
+			"mass": 330,
+			"dragWeight": 295,
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isBigDino",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 67 },
+			"cloning": {
+				"costBase": 1675,
+				"costLevel": 55,
+				"timeBase": 11725,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 224, "sprint": 1280 },
+				"swim": { "base": 210 }
+			},
+			"movementD": {
+				"walk": { "base": 320, "sprint": 960 },
+				"swim": { "base": 300 }
+			},
+			"staminaRates": {
+				"sprint": -14,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 45,
+				"defaultSwingRadius": 260,
+				"attacks": [
+					{ "name": "ClawOrBite", "interval": 1, "dmg": 0, "radius": 0, "stamina": 0 },
+					{ "name": "Slam", "interval": 0.22, "dmg": 49, "radius": 500, "stamina": 0 },
+					{ "name": "Claw", "interval": 0.4, "dmg": 32, "radius": 300, "stamina": 0 },
+					{ "name": "Bite", "interval": 0.4, "dmg": 32, "radius": 300, "stamina": 0 },
+					{ "name": "Water Bite", "interval": 0.4, "dmg": 32, "radius": 300, "stamina": 0 }
+				]
+			},
+			"death": { "baseXP": 4 }
 		},
 		{
 			"name": "Microraptor",
@@ -1255,9 +1351,9 @@
 				"swimOrFly": -3
 			},
 			"attack": {
-				"defaultDmg": 29,
+				"defaultDmg": 33,
 				"defaultSwingRadius": 160,
-				"attacks": [ { "name": "None", "interval": 0.2, "dmg": 29, "radius": 160, "stamina": 0 } ]
+				"attacks": [ { "name": "None", "interval": 0.2, "dmg": 33, "radius": 160, "stamina": 0 } ]
 			},
 			"death": {
 				"lootBagChance": 0.3,
@@ -1447,6 +1543,58 @@
 			}
 		},
 		{
+			"name": "Stegosaurus",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Stego_Character_BP_TSOTF.Stego_Character_BP_TSOTF_C",
+			"dinoNameTag": "Stego",
+			"customTag": "Stego",
+			"targetingTeamName": "Herbivores_Medium",
+			"mass": 260,
+			"dragWeight": 250,
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isBigDino",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 30 },
+			"cloning": {
+				"costBase": 725,
+				"costLevel": 55,
+				"timeBase": 5075,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 187, "sprint": 668.5 },
+				"swim": { "base": 300 }
+			},
+			"movementD": {
+				"walk": { "base": 84.1, "sprint": 231.4 },
+				"swim": { "base": 135 }
+			},
+			"staminaRates": {
+				"sprint": -20,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 42,
+				"defaultSwingRadius": 450,
+				"attacks": [
+					{ "name": "Melee", "interval": 0.5, "dmg": 42, "radius": 500, "stamina": 0 },
+					{ "name": "ImpalingTailWhip", "interval": 0.5, "dmg": 42, "radius": 100, "stamina": 0 },
+					{ "name": "Backplate", "interval": 0, "dmg": 0, "radius": 0, "stamina": 0 },
+					{ "name": "ThrowImpliedTarget", "interval": 0.5, "dmg": 42, "radius": 100, "stamina": 0 }
+				]
+			},
+			"death": { "baseXP": 5 }
+		},
+		{
 			"name": "Therizinosaur",
 			"bp": "/Game/TSOTF/Core/Dinos/TBD/Therizino_Character_BP_TSOTF.Therizino_Character_BP_TSOTF_C",
 			"dinoNameTag": "Therizinosaurus",
@@ -1518,7 +1666,6 @@
 			"dragWeight": 400,
 			"flags": [
 				"allowCarryFlyerDinos",
-				"allowMountedWeaponry",
 				"allowRiding",
 				"canBeDragged",
 				"canBeTorpid",
@@ -1553,11 +1700,11 @@
 				"defaultDmg": 0,
 				"defaultSwingRadius": 90,
 				"attacks": [
-					{ "name": "Claw", "interval": 0.2, "dmg": 40, "radius": 250, "stamina": 0 },
+					{ "name": "Claw", "interval": 0.2, "dmg": 42, "radius": 250, "stamina": 0 },
 					{ "name": "Release", "interval": 0, "dmg": 0, "radius": 0, "stamina": 0 },
 					{ "name": "Roar", "interval": 0, "dmg": 0, "radius": 160, "stamina": 0 },
-					{ "name": "Pounce", "interval": 0, "dmg": 30, "radius": 0, "stamina": 0 },
-					{ "name": "Maul", "interval": 0, "dmg": 40, "radius": 0, "stamina": 0 }
+					{ "name": "Pounce", "interval": 0, "dmg": 32, "radius": 0, "stamina": 0 },
+					{ "name": "Maul", "interval": 0, "dmg": 42, "radius": 0, "stamina": 0 }
 				]
 			},
 			"death": {
@@ -1627,6 +1774,163 @@
 					}
 				],
 				"baseXP": 20000
+			}
+		},
+		{
+			"name": "Beelzebufo",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Toad_Character_BP_TSOTF.Toad_Character_BP_TSOTF_C",
+			"dinoNameTag": "Toad",
+			"customTag": "Toad",
+			"targetingTeamName": "Carnivores_Medium",
+			"mass": 120,
+			"dragWeight": 85,
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isAmphibious",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 57 },
+			"cloning": {
+				"costBase": 1425,
+				"costLevel": 55,
+				"timeBase": 9975,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 66,
+				"maxSpeed": 1770
+			},
+			"movementW": {
+				"walk": { "base": 400, "sprint": 800 },
+				"swim": { "base": 700 }
+			},
+			"movementD": {
+				"walk": { "base": 340, "sprint": 680 },
+				"swim": { "base": 595 }
+			},
+			"staminaRates": {
+				"sprint": -20,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 20,
+				"defaultSwingRadius": 144,
+				"attacks": [
+					{ "name": "None", "interval": 0.1, "dmg": 12, "radius": 144, "stamina": 0 },
+					{ "name": "None", "interval": 0.1, "dmg": 20, "radius": 144, "stamina": 0 }
+				]
+			},
+			"death": { "baseXP": 2 }
+		},
+		{
+			"name": "Triceratops",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Trike_Character_BP_TSOTF.Trike_Character_BP_TSOTF_C",
+			"dinoNameTag": "Trike",
+			"customTag": "Trike",
+			"targetingTeamName": "Herbivores_Medium",
+			"mass": 225,
+			"dragWeight": 300,
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isBigDino",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 24 },
+			"cloning": {
+				"costBase": 575,
+				"costLevel": 55,
+				"timeBase": 4025,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 150, "sprint": 607.5 },
+				"swim": { "base": 300 }
+			},
+			"movementD": {
+				"walk": { "base": 94.5, "sprint": 283.5 },
+				"swim": { "base": 189 }
+			},
+			"staminaRates": {
+				"sprint": -14,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 40,
+				"defaultSwingRadius": 430,
+				"attacks": [
+					{ "name": "None", "interval": 0.63, "dmg": 40, "radius": 430, "stamina": 0 },
+					{ "name": "Ram", "interval": 30, "dmg": 40, "radius": 430, "stamina": 0 }
+				]
+			},
+			"death": { "baseXP": 4 }
+		},
+		{
+			"name": "Yutyrannus",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Yutyrannus_Character_BP_TSOTF.Yutyrannus_Character_BP_TSOTF_C",
+			"dinoNameTag": "Yutyrannus",
+			"customTag": "Yutyrannus",
+			"targetingTeamName": "Carnivores_High",
+			"mass": 5000,
+			"dragWeight": 500,
+			"flags": [
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"doStepDamage",
+				"isBigDino",
+				"isCarnivore",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 94 },
+			"cloning": {
+				"costBase": 2350,
+				"costLevel": 55,
+				"timeBase": 16450,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 700, "sprint": 1610 }
+			},
+			"movementD": {
+				"walk": { "base": 700, "sprint": 1610 }
+			},
+			"staminaRates": { "sprint": -40 },
+			"attack": {
+				"defaultDmg": 0,
+				"defaultSwingRadius": 90,
+				"attacks": [
+					{ "name": "Bite", "interval": 0.4, "dmg": 55, "radius": 500, "stamina": 10 },
+					{ "name": "Fear", "interval": 1, "dmg": 1, "radius": 1500, "stamina": 250 },
+					{ "name": "Courage", "interval": 1, "dmg": 1, "radius": 1500, "stamina": 250 },
+					{ "name": "CourageToFollowers", "interval": 25, "dmg": 1, "radius": 1500, "stamina": 0 }
+				]
+			},
+			"death": {
+				"lootBagChance": 1,
+				"lootBags": [
+					{
+						"chance": 1,
+						"item": "/Game/PrimalEarth/CoreBlueprints/Inventories/DinoDropInventoryComponent_Carnivore_Huge_Yuty.DinoDropInventoryComponent_Carnivore_Huge_Yuty"
+					}
+				],
+				"baseXP": 30
 			}
 		}
 	]
