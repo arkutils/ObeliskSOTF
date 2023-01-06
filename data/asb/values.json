@@ -1,5 +1,5 @@
 {
-	"version": "463.1.10222595",
+	"version": "464.28.10269294",
 	"format": "1.14-flyerspeed",
 	"species": [
 		{
@@ -290,6 +290,7 @@
 		{
 			"name": "Archaeopteryx",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Archa_Character_BP_SOTF.Archa_Character_BP_SOTF",
+			"isFlyer": true,
 			"fullStatsRaw": [
 				[ 125, 0.2, 0.27, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
@@ -1156,8 +1157,8 @@
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Dragon_Character_BP_TSOTF.Dragon_Character_BP_TSOTF",
 			"variants": [ "Boss" ],
 			"fullStatsRaw": [
-				[ 13500, 0.2, 0.2, 0.3, 0 ],
-				[ 560, 0.1, 0.1, 0, 0 ],
+				[ 10800, 0.2, 0.2, 0.3, 0 ],
+				[ 600, 0.1, 0.1, 0, 0 ],
 				[ 350, 0.06, 0, 0.5, 0 ],
 				[ 2000, 0.1, 0.1, 0, 0 ],
 				[ 2600, 0.1, 0.1, 0, 0 ],
@@ -1280,7 +1281,7 @@
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Gorilla_Character_BP_TSOTF.Gorilla_Character_BP_TSOTF",
 			"variants": [ "Boss" ],
 			"fullStatsRaw": [
-				[ 12000, 0, 0, 0.3, 0 ],
+				[ 13500, 0, 0, 0.3, 0 ],
 				[ 910, 0, 0, 0, 0 ],
 				[ 350, 0.06, 0, 0.5, 0 ],
 				[ 2000, 0, 0, 0, 0 ],
@@ -2236,6 +2237,121 @@
 			"displayedStats": 927
 		},
 		{
+			"name": "Piranha",
+			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Piranha_Character_BP_SOTF.Piranha_Character_BP_SOTF",
+			"fullStatsRaw": [
+				[ 150, 0.2, 0.27, 0.5, 0 ],
+				[ 120, 0.1, 0.1, 0, 0 ],
+				[ 250, 0.06, 0, 0.5, 0 ],
+				[ 150, 0.1, 0.1, 0, 0 ],
+				[ 1200, 0.1, 0.1, 0, 0.15 ],
+				null,
+				null,
+				[ 15, 0.02, 0.04, 0, 0 ],
+				[ 1, 0.05, 0.1, 1, 0.4 ],
+				[ 1, 0, 0.01, 0.284, 0 ],
+				null,
+				null
+			],
+			"immobilizedBy": [],
+			"noGender": true,
+			"colors": [
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Green",
+						"Dino Dark Purple",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Green",
+						"Dino Dark Purple",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Green",
+						"Dino Dark Purple",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Green"
+					]
+				},
+				null,
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Albino",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Light Blue",
+						"Dino Light Brown",
+						"Dino Light Green",
+						"Dino Light Orange",
+						"Dino Light Purple",
+						"Dino Light Red",
+						"Dino Light Yellow",
+						"Dino Medium Brown",
+						"Dino Medium Green",
+						"Light Grey"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Green",
+						"Dino Dark Purple",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Green"
+					]
+				}
+			],
+			"taming": {
+				"nonViolent": true,
+				"violent": false,
+				"tamingIneffectiveness": 8.333333,
+				"affinityNeeded0": 450,
+				"affinityIncreasePL": 22.5,
+				"wakeAffinityMult": 1.6,
+				"wakeFoodDeplMult": 2,
+				"foodConsumptionBase": 0.001543,
+				"foodConsumptionMult": 216.0294,
+				"babyFoodConsumptionMult": 510
+			},
+			"TamedBaseHealthMultiplier": 1,
+			"displayedStats": 919
+		},
+		{
 			"name": "Rex",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Rex_Character_BP_SOTF.Rex_Character_BP_SOTF",
 			"fullStatsRaw": [
@@ -2350,133 +2466,6 @@
 				"torporDepletionPS0": 0.725,
 				"foodConsumptionBase": 0.002314,
 				"foodConsumptionMult": 180.0634,
-				"babyFoodConsumptionMult": 510
-			},
-			"TamedBaseHealthMultiplier": 1,
-			"displayedStats": 927
-		},
-		{
-			"name": "Woolly Rhino",
-			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Rhino_Character_BP_Child.Rhino_Character_BP_Child",
-			"fullStatsRaw": [
-				[ 500, 0.2, 0.27, 0.5, 0 ],
-				[ 400, 0.1, 0.1, 0, 0 ],
-				[ 600, 0.06, 0, 0.5, 0 ],
-				[ 100, 0.1, 0.1, 0, 0 ],
-				[ 3000, 0.1, 0.1, 0, 0 ],
-				null,
-				null,
-				[ 750, 0.02, 0.04, 0, 0 ],
-				[ 1, 0.05, 0.1, 0.5, 0.4 ],
-				[ 1, 0, 0.01, 1.226, 0 ],
-				null,
-				null
-			],
-			"immobilizedBy": [ "Chain Bola", "Large Bear Trap" ],
-			"breeding": {
-				"gestationTime": 14285.7143,
-				"incubationTime": 0,
-				"maturationTime": 166666.667,
-				"matingCooldownMin": 64800,
-				"matingCooldownMax": 172800
-			},
-			"colors": [
-				{
-					"name": "Unknown",
-					"colors": [
-						"BigFoot0",
-						"BigFoot4",
-						"BigFoot5",
-						"Black",
-						"Dark Grey",
-						"Dino Dark Brown",
-						"Dino Dark Orange",
-						"Dino Darker Grey",
-						"Dino Light Brown",
-						"Dino Light Orange",
-						"Dino Medium Brown",
-						"Light Grey"
-					]
-				},
-				{
-					"name": "Unknown",
-					"colors": [
-						"BigFoot0",
-						"BigFoot4",
-						"BigFoot5",
-						"Black",
-						"Dark Grey",
-						"Dino Dark Brown",
-						"Dino Dark Orange",
-						"Dino Darker Grey",
-						"Dino Light Brown",
-						"Dino Light Orange",
-						"Dino Medium Brown",
-						"Light Grey"
-					]
-				},
-				null,
-				{
-					"name": "Unknown",
-					"colors": [
-						"BigFoot0",
-						"BigFoot4",
-						"BigFoot5",
-						"Black",
-						"Dark Grey",
-						"Dino Dark Brown",
-						"Dino Dark Orange",
-						"Dino Darker Grey",
-						"Dino Light Brown",
-						"Dino Light Orange",
-						"Dino Medium Brown",
-						"Light Grey"
-					]
-				},
-				{
-					"name": "Unknown",
-					"colors": [
-						"BigFoot0",
-						"BigFoot4",
-						"BigFoot5",
-						"Black",
-						"Dark Grey",
-						"Dino Dark Brown",
-						"Dino Dark Orange",
-						"Dino Darker Grey",
-						"Dino Light Brown",
-						"Dino Light Orange",
-						"Dino Medium Brown",
-						"Light Grey"
-					]
-				},
-				{
-					"name": "Unknown",
-					"colors": [
-						"BigFoot0",
-						"BigFoot4",
-						"BigFoot5",
-						"Black",
-						"Dark Grey",
-						"Dino Dark Brown",
-						"Dino Dark Orange",
-						"Dino Darker Grey",
-						"Dino Light Brown",
-						"Dino Light Orange",
-						"Dino Medium Brown",
-						"Light Grey"
-					]
-				}
-			],
-			"taming": {
-				"nonViolent": false,
-				"violent": true,
-				"tamingIneffectiveness": 1.25,
-				"affinityNeeded0": 3450,
-				"affinityIncreasePL": 125,
-				"torporDepletionPS0": 0.9,
-				"foodConsumptionBase": 0.003156,
-				"foodConsumptionMult": 150,
 				"babyFoodConsumptionMult": 510
 			},
 			"TamedBaseHealthMultiplier": 1,
@@ -3023,6 +3012,136 @@
 				"torporDepletionPS0": 0.3,
 				"foodConsumptionBase": 0.001736,
 				"foodConsumptionMult": 864.0553,
+				"babyFoodConsumptionMult": 510
+			},
+			"TamedBaseHealthMultiplier": 1,
+			"displayedStats": 927
+		},
+		{
+			"name": "Araneo",
+			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/SpiderS_Character_BP_Aggressive_TSOTF.SpiderS_Character_BP_Aggressive_TSOTF",
+			"variants": [ "Boss" ],
+			"fullStatsRaw": [
+				[ 350, 0.2, 0.27, 0.5, 0 ],
+				[ 200, 0.1, 0.1, 0, 0 ],
+				[ 180, 0.06, 0, 0.5, 0 ],
+				[ 150, 0.1, 0.1, 0, 0 ],
+				[ 1200, 0.1, 0.1, 0, 0 ],
+				null,
+				null,
+				[ 140, 0.02, 0.04, 0, 0 ],
+				[ 1, 0.05, 0.1, 0.5, 0.4 ],
+				[ 1, 0, 0.015, 0.2, 0 ],
+				null,
+				null
+			],
+			"immobilizedBy": [],
+			"breeding": {
+				"gestationTime": 0,
+				"incubationTime": 5142.44575,
+				"eggTempMin": 4,
+				"eggTempMax": 12,
+				"maturationTime": 90090.0901,
+				"matingCooldownMin": 64800,
+				"matingCooldownMax": 172800
+			},
+			"colors": [
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				null,
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dino Light Blue",
+						"Dino Light Brown",
+						"Dino Light Green",
+						"Dino Light Orange",
+						"Dino Light Purple",
+						"Dino Light Red",
+						"Dino Light Yellow",
+						"Dino Medium Brown",
+						"Dino Medium Green",
+						"Light Grey"
+					]
+				},
+				{
+					"name": "Unknown",
+					"colors": [
+						"Black",
+						"Dark Grey",
+						"Dino Dark Blue",
+						"Dino Dark Brown",
+						"Dino Dark Green",
+						"Dino Dark Orange",
+						"Dino Dark Purple",
+						"Dino Dark Red",
+						"Dino Dark Yellow",
+						"Dino Darker Grey",
+						"Dino Medium Brown",
+						"Dino Medium Green"
+					]
+				}
+			],
+			"taming": {
+				"nonViolent": true,
+				"violent": false,
+				"tamingIneffectiveness": 4.166667,
+				"affinityNeeded0": 4000,
+				"affinityIncreasePL": 120,
+				"wakeAffinityMult": 1,
+				"wakeFoodDeplMult": 2,
+				"foodConsumptionBase": 0.001543,
+				"foodConsumptionMult": 648.0881,
 				"babyFoodConsumptionMult": 510
 			},
 			"TamedBaseHealthMultiplier": 1,
@@ -3584,7 +3703,7 @@
 			"name": "Thylacoleo",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Thylacoleo_Character_BP_TSOTF.Thylacoleo_Character_BP_TSOTF",
 			"fullStatsRaw": [
-				[ 600, 0.2, 0.189, 0.5, 0 ],
+				[ 450, 0.2, 0.189, 0.5, 0 ],
 				[ 225, 0.1, 0.1, 0, 0 ],
 				[ 700, 0.06, 0, 0.5, 0 ],
 				[ 200, 0.1, 0.1, 0, 0 ],
@@ -3682,7 +3801,7 @@
 			"name": "Titanosaur",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Titanosaur_Character_BP_TSOTF.Titanosaur_Character_BP_TSOTF",
 			"fullStatsRaw": [
-				[ 20000, 0, 0, -80000, 0 ],
+				[ 20000, 0, 0, -11000, 0 ],
 				[ 2000, 0, 0, 0, 0 ],
 				[ 25000, 0.06, 0, 0.5, 0 ],
 				[ 600, 0, 0, 0, 0 ],
@@ -3695,7 +3814,6 @@
 				null,
 				null
 			],
-			"altBaseStats": { "0": 35000 },
 			"immobilizedBy": [],
 			"colors": [
 				{
@@ -3796,7 +3914,7 @@
 				"foodConsumptionMult": 13,
 				"babyFoodConsumptionMult": 510
 			},
-			"TamedBaseHealthMultiplier": 1.8,
+			"TamedBaseHealthMultiplier": 1,
 			"displayedStats": 927
 		},
 		{
