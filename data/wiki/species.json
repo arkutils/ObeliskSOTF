@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/species.json",
-	"version": "463.1.10222595",
+	"version": "464.28.10269294",
 	"format": "4",
 	"species": [
 		{
@@ -137,6 +137,7 @@
 				"canBeTorpid",
 				"canDrag",
 				"canMountOnHumans",
+				"isFlyerDino",
 				"isTameable"
 			],
 			"leveling": { "mutagenCost": 14 },
@@ -152,10 +153,12 @@
 			},
 			"movementW": {
 				"walk": { "base": 150, "sprint": 588 },
+				"fly": { "base": 750, "sprint": 1470 },
 				"swim": { "base": 300 }
 			},
 			"movementD": {
 				"walk": { "base": 105, "sprint": 411.6 },
+				"fly": { "base": 525, "sprint": 1029 },
 				"swim": { "base": 210 }
 			},
 			"staminaRates": {
@@ -576,8 +579,8 @@
 				"defaultSwingRadius": 1200,
 				"attacks": [
 					{ "name": "Spino Bite", "interval": 0.75, "dmg": 120, "radius": 1200, "stamina": 30 },
-					{ "name": "Flame", "interval": 15, "dmg": 0, "radius": 1200, "stamina": 100 },
-					{ "name": "Flame", "interval": 15, "dmg": 0, "radius": 1200, "stamina": 100 }
+					{ "name": "Flame", "interval": 15, "dmg": 0, "radius": 1200, "stamina": 150 },
+					{ "name": "Flame", "interval": 15, "dmg": 0, "radius": 1200, "stamina": 150 }
 				]
 			},
 			"death": {
@@ -683,10 +686,10 @@
 				"swimOrFly": -3
 			},
 			"attack": {
-				"defaultDmg": 160,
+				"defaultDmg": 176,
 				"defaultSwingRadius": 1200,
 				"attacks": [
-					{ "name": "Melee Attack", "interval": 1, "dmg": 160, "radius": 600, "stamina": 30 },
+					{ "name": "Melee Attack", "interval": 1, "dmg": 176, "radius": 600, "stamina": 30 },
 					{
 						"name": "ThrowRock", "interval": 11, "dmg": 0, "radius": 1200, "stamina": 100,
 						"isProjectile": true
@@ -1185,6 +1188,45 @@
 			"death": { "baseXP": 0.5 }
 		},
 		{
+			"name": "Piranha",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Piranha_Character_BP_SOTF.Piranha_Character_BP_SOTF_C",
+			"dinoNameTag": "Piranha",
+			"customTag": "",
+			"targetingTeamName": "Carnivore_Water_PlayerOrTamed",
+			"mass": 100,
+			"dragWeight": 21,
+			"flags": [
+				"isCarnivore",
+				"isWaterDino",
+				"dieIfLeftWater",
+				"isTameable",
+				"canBeWildTrappedWithFishBasket",
+				"canBeTamedWithFishBasket"
+			],
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 250, "sprint": 1000 },
+				"swim": { "base": 150 }
+			},
+			"movementD": {
+				"walk": { "base": 250, "sprint": 1000 },
+				"swim": { "base": 150 }
+			},
+			"staminaRates": {
+				"sprint": -6,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 22,
+				"defaultSwingRadius": 80,
+				"attacks": [ { "name": "Melee", "interval": 0.15, "dmg": 22, "radius": 80, "stamina": 0 } ]
+			},
+			"death": { "baseXP": 1 }
+		},
+		{
 			"name": "Rex",
 			"bp": "/Game/TSOTF/Core/Dinos/TBD/Rex_Character_BP_SOTF.Rex_Character_BP_SOTF_C",
 			"dinoNameTag": "Rex",
@@ -1243,67 +1285,6 @@
 					}
 				],
 				"baseXP": 30
-			}
-		},
-		{
-			"name": "Woolly Rhino",
-			"bp": "/Game/TSOTF/Core/Dinos/TBD/Rhino_Character_BP_Child.Rhino_Character_BP_Child_C",
-			"dinoNameTag": "Rhino",
-			"customTag": "Rhino",
-			"targetingTeamName": "Herbivores_Medium",
-			"mass": 330,
-			"dragWeight": 375,
-			"flags": [
-				"allowMountedWeaponry",
-				"allowRiding",
-				"canBeDragged",
-				"canBeTorpid",
-				"canDrag",
-				"doStepDamage",
-				"isBigDino",
-				"isTameable"
-			],
-			"leveling": { "mutagenCost": 40 },
-			"cloning": {
-				"costBase": 975,
-				"costLevel": 55,
-				"timeBase": 6825,
-				"timeLevel": 385
-			},
-			"falling": {
-				"dmgMult": 80,
-				"maxSpeed": 1550
-			},
-			"movementW": {
-				"walk": { "base": 138.8, "sprint": 936.6 },
-				"swim": { "base": 225 }
-			},
-			"movementD": {
-				"walk": { "base": 101.8, "sprint": 1119.3 },
-				"swim": { "base": 165 }
-			},
-			"movementR": {
-				"walk": { "base": 101.8, "sprint": 2238.6 },
-				"swim": { "base": 165 }
-			},
-			"staminaRates": {
-				"sprint": -8,
-				"swimOrFly": -3
-			},
-			"attack": {
-				"defaultDmg": 40,
-				"defaultSwingRadius": 430,
-				"attacks": [ { "name": "None", "interval": 0.22, "dmg": 40, "radius": 430, "stamina": 0 } ]
-			},
-			"death": {
-				"lootBagChance": 1,
-				"lootBags": [
-					{
-						"chance": 1,
-						"item": "/Game/PrimalEarth/CoreBlueprints/Inventories/DinoDropInventoryComponent_Rhino.DinoDropInventoryComponent_Rhino"
-					}
-				],
-				"baseXP": 4
 			}
 		},
 		{
@@ -1601,6 +1582,68 @@
 				],
 				"engrams": [ "PrimalItemArmor_TekBoots_C" ],
 				"baseXP": 8
+			}
+		},
+		{
+			"name": "Araneo",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/SpiderS_Character_BP_Aggressive_TSOTF.SpiderS_Character_BP_Aggressive_TSOTF_C",
+			"dinoNameTag": "Spider",
+			"customTag": "Spider",
+			"targetingTeamName": "Carnivores_High",
+			"mass": 90,
+			"dragWeight": 90,
+			"variants": [ "Boss" ],
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canDrag",
+				"isBossDino",
+				"isCarnivore",
+				"isTameable"
+			],
+			"cloning": {
+				"costBase": 100,
+				"costLevel": 55,
+				"timeBase": 700,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 450, "sprint": 900 },
+				"swim": { "base": 200 }
+			},
+			"movementD": {
+				"walk": { "base": 360, "sprint": 720 },
+				"swim": { "base": 160 }
+			},
+			"staminaRates": {
+				"sprint": -6,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 20,
+				"defaultSwingRadius": 145,
+				"attacks": [
+					{ "name": "Melee", "interval": 0.3, "dmg": 20, "radius": 145, "stamina": 0 },
+					{
+						"name": "Web Cone", "interval": 12, "dmg": 0, "radius": 0, "stamina": 30,
+						"isProjectile": true
+					}
+				]
+			},
+			"death": {
+				"lootBagChance": 0.3,
+				"lootBags": [
+					{
+						"chance": 1,
+						"item": "/Game/PrimalEarth/CoreBlueprints/Inventories/DinoDropInventoryComponent_Carnivore_Small.DinoDropInventoryComponent_Carnivore_Small"
+					}
+				],
+				"baseXP": 2
 			}
 		},
 		{

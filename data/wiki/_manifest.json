@@ -6,17 +6,17 @@
 			"format": "1"
 		},
 		"items.json": {
-			"version": "462.5.10220161"
+			"version": "464.28.10269294"
 		},
 		"loot_crates.json": {
-			"version": "458.0.10207839.1",
+			"version": "464.28.10269294",
 			"format": "7"
 		},
 		"spawn_groups.json": {
 			"version": "458.0.10207839.1"
 		},
 		"species.json": {
-			"version": "463.1.10222595"
+			"version": "464.28.10269294"
 		},
 		"TSOTF/biomes.json": {
 			"version": "458.0.10207839",
@@ -27,11 +27,11 @@
 			"format": "2"
 		},
 		"TSOTF/npc_spawns.json": {
-			"version": "458.0.10207839",
+			"version": "464.28.10269294",
 			"format": "1"
 		},
 		"TSOTF/world_settings.json": {
-			"version": "463.1.10222595",
+			"version": "464.28.10269294",
 			"format": "2"
 		}
 	}

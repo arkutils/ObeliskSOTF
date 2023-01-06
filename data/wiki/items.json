@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/items.json",
-	"version": "462.5.10220161",
+	"version": "464.28.10269294",
 	"format": "4",
 	"items": [
 		{
@@ -788,30 +788,6 @@
 			}
 		},
 		{
-			"name": "Paintbrush",
-			"description": "Apply a dye to this, then swing it at structures to paint them.",
-			"bp": "/Game/TSOTF/Core/Players/Paint/PrimalItem_WeaponPaintbrush_SOTF.PrimalItem_WeaponPaintbrush_SOTF_C",
-			"parent": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemWeaponGenericNoStats.PrimalItemWeaponGenericNoStats_C",
-			"icon": "/Game/PrimalEarth/Test/PaintbrushIconColorized.PaintbrushIconColorized",
-			"type": "Weapon",
-			"folders": [ "Misc" ],
-			"weight": 0.5,
-			"stackSize": 1,
-			"crafting": {
-				"xp": 0.75,
-				"time": 5,
-				"levelReq": 0,
-				"productCount": 1,
-				"skillQualityMult": { "min": 0, "max": 0.05 },
-				"recipe": [
-					{ "qty": 1, "type": "PrimalItemResource_Wood_C" },
-					{ "qty": 3, "type": "PrimalItemResource_Hide_C" },
-					{ "qty": 10, "type": "PrimalItemResource_Thatch_C" }
-				]
-			},
-			"weapon": "/Game/TSOTF/Core/Players/Paint/WeapPaintbrush_SOTF.WeapPaintbrush_SOTF_C"
-		},
-		{
 			"name": "Scissors",
 			"description": "Used for cutting hair & other materials!",
 			"bp": "/Game/TSOTF/Core/Players/scissors/PrimalItem_WeaponScissors_SOTF.PrimalItem_WeaponScissors_SOTF_C",
@@ -948,7 +924,7 @@
 				"skillQualityMult": { "min": 0, "max": 0.05 },
 				"recipe": [
 					{ "qty": 1, "type": "PrimalItemAmmo_ArrowStone_C" },
-					{ "qty": 1, "type": "PrimalItemResource_Propellant_C" }
+					{ "qty": 3, "type": "PrimalItemResource_Propellant_C" }
 				]
 			}
 		},
@@ -1220,7 +1196,7 @@
 			"type": "Ammo",
 			"folders": [ "Weapons", "Ammo" ],
 			"weight": 0.1,
-			"stackSize": 30,
+			"stackSize": 5,
 			"crafting": {
 				"xp": 0.6,
 				"time": 3,
@@ -1228,8 +1204,8 @@
 				"productCount": 1,
 				"skillQualityMult": { "min": 0, "max": 0.05 },
 				"recipe": [
-					{ "qty": 30, "type": "PrimalItemResource_Propellant_C" },
-					{ "qty": 10, "type": "PrimalItemResource_Hide_C" },
+					{ "qty": 40, "type": "PrimalItemResource_Propellant_C" },
+					{ "qty": 12, "type": "PrimalItemResource_Hide_C" },
 					{ "qty": 50, "type": "PrimalItemResource_Fibers_SOTF_C" }
 				]
 			}
@@ -1499,31 +1475,6 @@
 			}
 		},
 		{
-			"name": "Netgun",
-			"description": "A small but powerful explosive, primarily used with rocket launchers.",
-			"bp": "/Game/TSOTF/Core/Weapons/Utility/NetGun/PrimalItemAmmo_NetGun_SOTF.PrimalItemAmmo_NetGun_SOTF_C",
-			"parent": "/Game/ScorchedEarth/WeaponNetGun/PrimalItemAmmo_NetGun.PrimalItemAmmo_NetGun_C",
-			"icon": "/Game/ScorchedEarth/Icons/Weapons/NetgunAmmo_Icon.NetgunAmmo_Icon",
-			"type": "Ammo",
-			"folders": [ "Weapons", "Ammo" ],
-			"weight": 0.1,
-			"stackSize": 100,
-			"crafting": {
-				"xp": 3.6,
-				"time": 1,
-				"levelReq": 0,
-				"productCount": 1,
-				"skillQualityMult": { "min": 0, "max": 0.05 },
-				"recipe": [
-					{ "qty": 40, "type": "PrimalItemResource_Gunpowder_C" },
-					{ "qty": 10, "type": "PrimalItemResource_Crystal_C" },
-					{ "qty": 10, "type": "PrimalItemResource_Polymer_C" },
-					{ "qty": 12, "type": "PrimalItemResource_MetalIngot_C" }
-				]
-			},
-			"weapon": "/Game/TSOTF/Core/Weapons/Utility/NetGun/WeapNetGun_SOTF.WeapNetGun_SOTF_C"
-		},
-		{
 			"name": "Net Gun",
 			"description": "Has tremendous power and speed underwater, but ineffective range out of water. Uses Spear Bolts for ammunition.",
 			"bp": "/Game/TSOTF/Core/Weapons/Utility/NetGun/PrimalItem_WeaponHarpoon_SOTF.PrimalItem_WeaponHarpoon_SOTF_C",
@@ -1566,28 +1517,15 @@
 			"weapon": "/Game/TSOTF/Core/Weapons/Utility/NetGun/WeapHarpoon_Net_SOTF.WeapHarpoon_Net_SOTF_C"
 		},
 		{
-			"name": "Net Gun",
-			"description": "Mankind's ultimate portable killing device.",
-			"bp": "/Game/TSOTF/Core/Weapons/Utility/NetGun/PrimalItem_WeaponNetGun_SOTF.PrimalItem_WeaponNetGun_SOTF_C",
-			"parent": "/Game/ScorchedEarth/WeaponNetGun/PrimalItem_WeaponNetGun.PrimalItem_WeaponNetGun_C",
-			"icon": "/Game/ScorchedEarth/Icons/Weapons/Materials/HUD_NetGun_Colorize_MIC.HUD_NetGun_Colorize_MIC",
-			"type": "Weapon",
-			"folders": [ "Weapons", "Firearms" ],
-			"weight": 20,
-			"stackSize": 1,
-			"crafting": {
-				"xp": 243,
-				"time": 15,
-				"levelReq": 0,
-				"productCount": 1,
-				"skillQualityMult": { "min": 0, "max": 0.05 },
-				"recipe": [
-					{ "qty": 80, "type": "PrimalItemResource_Polymer_C" },
-					{ "qty": 50, "type": "PrimalItemResource_MetalIngot_C" },
-					{ "qty": 60, "type": "PrimalItemResource_ChitinPaste_C" }
-				]
-			},
-			"weapon": "/Game/TSOTF/Core/Weapons/Utility/NetGun/WeapNetGun_SOTF.WeapNetGun_SOTF_C"
+			"name": "Parachute",
+			"description": "Use this while falling to slow your fall. Jump while parachuting to deactivate it.",
+			"bp": "/Game/TSOTF/Core/Weapons/Utility/Parachute/PrimalItemConsumableBuff_Parachute_TSOTF.PrimalItemConsumableBuff_Parachute_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableBuff_Parachute.PrimalItemConsumableBuff_Parachute_C",
+			"icon": "/Game/PrimalEarth/Test/ParachuteIcon.ParachuteIcon",
+			"type": "MiscConsumable/Food",
+			"folders": [ "Misc" ],
+			"weight": 3,
+			"stackSize": 2
 		},
 		{
 			"name": "Spyglass",

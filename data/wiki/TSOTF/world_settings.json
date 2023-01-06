@@ -1,6 +1,6 @@
 {
 	"$schema": "../.schema/maps_world_settings.json",
-	"version": "463.1.10222595",
+	"version": "464.28.10269294",
 	"core": { "official": true },
 	"format": "2",
 	"persistentLevel": "/Game/Maps/TSOTF/TheIsland_SOTF",
@@ -279,6 +279,12 @@
 				"from": "/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP_C",
 				"to": [
 					[ 1, "/Game/TSOTF/Core/Dinos/TBD/TerrorBird_Character_BP_TSOTF.TerrorBird_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP.Piranha_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Piranha_Character_BP_SOTF.Piranha_Character_BP_SOTF_C" ]
 				]
 			}
 		]

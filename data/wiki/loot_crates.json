@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/loot_crates.json",
-	"version": "458.0.10207839.1",
+	"version": "464.28.10269294",
 	"format": "7",
 	"lootCrates": [
 		{
@@ -291,7 +291,8 @@
 								[ 0.95, "PrimalItem_WeaponBow_Flame_Gauntlet_SOTF_C" ],
 								[ 0.5, "PrimalItemConsumable_BloodPack_SOTF_C" ],
 								[ 0.6, "PrimalItem_PoisonGrenade_SOTF_C" ],
-								[ 0.9, "PrimalItem_WeaponPike_SOTF_C" ]
+								[ 0.9, "PrimalItem_WeaponPike_SOTF_C" ],
+								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
 							]
 						},
 						{
@@ -301,9 +302,8 @@
 							"quality": { "min": 0, "max": 0, "pow": 1 },
 							"items": [
 								[ 1, "PrimalItem_WeaponCrossbow_SOTF_C" ],
-								[ 0.8, "PrimalItem_WeaponTripwireC4_SOTF_C" ],
-								[ 0.6, "PrimalItem_WeaponGrenade_SOTF_C" ],
-								[ 0.9, "PrimalItem_WeapFlamethrower_SOTF_C" ]
+								[ 0.6, "PrimalItem_WeaponTripwireC4_SOTF_C" ],
+								[ 0.9, "PrimalItem_WeaponGrenade_SOTF_C" ]
 							]
 						},
 						{
@@ -421,7 +421,8 @@
 								[ 1, "PrimalItem_WeaponCrossbow_SOTF_1_C" ],
 								[ 0.8, "PrimalItem_WeaponBow_Flame_Gauntlet_SOTF_C" ],
 								[ 0.6, "PrimalItem_PoisonGrenade_SOTF_C" ],
-								[ 0.8, "PrimalItem_WeaponPike_SOTF_C" ]
+								[ 0.8, "PrimalItem_WeaponPike_SOTF_C" ],
+								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
 							]
 						}
 					]
@@ -520,7 +521,8 @@
 								[ 0.95, "PrimalItem_WeaponBow_Flame_Gauntlet_SOTF_C" ],
 								[ 0.5, "PrimalItemConsumable_BloodPack_SOTF_C" ],
 								[ 0.6, "PrimalItem_PoisonGrenade_SOTF_C" ],
-								[ 0.9, "PrimalItem_WeaponPike_SOTF_C" ]
+								[ 0.9, "PrimalItem_WeaponPike_SOTF_C" ],
+								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
 							]
 						},
 						{
@@ -531,8 +533,7 @@
 							"items": [
 								[ 1, "PrimalItem_WeaponCrossbow_SOTF_C" ],
 								[ 0.8, "PrimalItem_WeaponTripwireC4_SOTF_C" ],
-								[ 0.6, "PrimalItem_WeaponGrenade_SOTF_C" ],
-								[ 0.9, "PrimalItem_WeapFlamethrower_SOTF_C" ]
+								[ 0.6, "PrimalItem_WeaponGrenade_SOTF_C" ]
 							]
 						},
 						{
@@ -737,7 +738,7 @@
 							"items": [
 								[ 1, "PrimalItem_WeaponCrossbow_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponGrenade_SOTF_C" ],
-								[ 1, "PrimalItem_WeapFlamethrower_SOTF_C" ]
+								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
 							]
 						}
 					]
@@ -964,7 +965,7 @@
 								[ 1, "PrimalItem_WeaponCrossbow_SOTF_C" ],
 								[ 0.8, "PrimalItem_WeaponTripwireC4_SOTF_C" ],
 								[ 0.7, "PrimalItem_WeaponGrenade_SOTF_C" ],
-								[ 0.9, "PrimalItem_WeapFlamethrower_SOTF_C" ]
+								[ 0.5, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
 							]
 						},
 						{
@@ -977,7 +978,8 @@
 								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponRocketLauncher_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponProd_SOTF_C" ],
-								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ]
+								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
+								[ 0.9, "PrimalItem_WeapFlamethrower_SOTF_C" ]
 							]
 						}
 					]
@@ -1054,7 +1056,8 @@
 								[ 0.9, "PrimalItem_WeaponRocketLauncher_SOTF_C" ],
 								[ 0.8, "PrimalItem_WeaponProd_SOTF_C" ],
 								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
-								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ]
+								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ],
+								[ 0, "PrimalItem_WeapFlamethrower_SOTF_C" ]
 							]
 						}
 					]
