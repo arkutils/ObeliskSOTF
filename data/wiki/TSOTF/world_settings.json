@@ -1,6 +1,6 @@
 {
 	"$schema": "../.schema/maps_world_settings.json",
-	"version": "464.28.10269294",
+	"version": "466.1.10292802",
 	"core": { "official": true },
 	"format": "2",
 	"persistentLevel": "/Game/Maps/TSOTF/TheIsland_SOTF",
@@ -285,6 +285,18 @@
 				"from": "/Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP.Piranha_Character_BP_C",
 				"to": [
 					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Piranha_Character_BP_SOTF.Piranha_Character_BP_SOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Mammoth_Character_BP_TSOTF.Mammoth_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Sauropod_Character_BP_TSOTF.Sauropod_Character_BP_TSOTF_C" ]
 				]
 			}
 		]

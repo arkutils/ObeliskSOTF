@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/loot_crates.json",
-	"version": "464.28.10269294",
+	"version": "466.1.10292802",
 	"format": "7",
 	"lootCrates": [
 		{
@@ -28,7 +28,8 @@
 							"items": [
 								[ 1, "PrimalItem_WeaponBow_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponOilJar_SOTF_C" ],
-								[ 0.8, "PrimalItem_WeaponPike_SOTF_C" ]
+								[ 0.8, "PrimalItem_WeaponPike_SOTF_C" ],
+								[ 0.5, "PrimalItemStructure_BearTrap_TSOTF_C" ]
 							]
 						},
 						{
@@ -75,7 +76,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						}
 					]
@@ -192,7 +194,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						}
 					]
@@ -243,7 +246,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -256,7 +260,8 @@
 								[ 1, "PrimalItemArmor_ChitinGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinPants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -292,7 +297,8 @@
 								[ 0.5, "PrimalItemConsumable_BloodPack_SOTF_C" ],
 								[ 0.6, "PrimalItem_PoisonGrenade_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponPike_SOTF_C" ],
-								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
+								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ],
+								[ 0.5, "PrimalItemStructure_BearTrap_TSOTF_C" ]
 							]
 						},
 						{
@@ -422,7 +428,10 @@
 								[ 0.8, "PrimalItem_WeaponBow_Flame_Gauntlet_SOTF_C" ],
 								[ 0.6, "PrimalItem_PoisonGrenade_SOTF_C" ],
 								[ 0.8, "PrimalItem_WeaponPike_SOTF_C" ],
-								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
+								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ],
+								[ 0.8, "PrimalItem_GasGrenade_TSOTF_C" ],
+								[ 0.8, "PrimalItem_PlantSpeciesZ_Grenade_TSOTF_C" ],
+								[ 0.7, "PrimalItem_WeaponBallista_TSOTF_C" ]
 							]
 						}
 					]
@@ -443,7 +452,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -456,7 +466,8 @@
 								[ 1, "PrimalItemArmor_ChitinGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinPants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -522,7 +533,8 @@
 								[ 0.5, "PrimalItemConsumable_BloodPack_SOTF_C" ],
 								[ 0.6, "PrimalItem_PoisonGrenade_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponPike_SOTF_C" ],
-								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
+								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ],
+								[ 0.8, "PrimalItem_WeaponSword_TSOTF_C" ]
 							]
 						},
 						{
@@ -533,7 +545,8 @@
 							"items": [
 								[ 1, "PrimalItem_WeaponCrossbow_SOTF_C" ],
 								[ 0.8, "PrimalItem_WeaponTripwireC4_SOTF_C" ],
-								[ 0.6, "PrimalItem_WeaponGrenade_SOTF_C" ]
+								[ 0.6, "PrimalItem_WeaponGrenade_SOTF_C" ],
+								[ 0.7, "PrimalItem_WeaponSword_TSOTF_C" ]
 							]
 						},
 						{
@@ -546,7 +559,8 @@
 								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponRocketLauncher_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponProd_SOTF_C" ],
-								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ]
+								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
+								[ 0.3, "PrimalItem_WeaponSword_TSOTF_C" ]
 							]
 						}
 					]
@@ -567,7 +581,8 @@
 								[ 1, "PrimalItemArmor_ChitinGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinPants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_MetalShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -580,7 +595,8 @@
 								[ 1, "PrimalItemArmor_MetalGloves_SOFT_C" ],
 								[ 1, "PrimalItemArmor_MetalHelmet_SOFT_C" ],
 								[ 1, "PrimalItemArmor_MetalPants_SOFT_C" ],
-								[ 1, "PrimalItemArmor_MetalShirt_SOFT_C" ]
+								[ 1, "PrimalItemArmor_MetalShirt_SOFT_C" ],
+								[ 1, "PrimalItemArmor_TransparentRiotShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -593,7 +609,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -738,7 +755,10 @@
 							"items": [
 								[ 1, "PrimalItem_WeaponCrossbow_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponGrenade_SOTF_C" ],
-								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
+								[ 1, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ],
+								[ 0.6, "PrimalItem_GasGrenade_TSOTF_C" ],
+								[ 0.6, "PrimalItem_PlantSpeciesZ_Grenade_TSOTF_C" ],
+								[ 0.9, "PrimalItem_WeaponBallista_TSOTF_C" ]
 							]
 						}
 					]
@@ -759,7 +779,8 @@
 								[ 1, "PrimalItemArmor_ChitinGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinPants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_MetalShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -772,7 +793,8 @@
 								[ 1, "PrimalItemArmor_MetalGloves_SOFT_C" ],
 								[ 1, "PrimalItemArmor_MetalHelmet_SOFT_C" ],
 								[ 1, "PrimalItemArmor_MetalPants_SOFT_C" ],
-								[ 1, "PrimalItemArmor_MetalShirt_SOFT_C" ]
+								[ 1, "PrimalItemArmor_MetalShirt_SOFT_C" ],
+								[ 1, "PrimalItemArmor_TransparentRiotShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -785,7 +807,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -849,7 +872,8 @@
 								[ 1, "PrimalItemArmor_MetalGloves_SOFT_C" ],
 								[ 1, "PrimalItemArmor_MetalHelmet_SOFT_C" ],
 								[ 1, "PrimalItemArmor_MetalPants_SOFT_C" ],
-								[ 1, "PrimalItemArmor_MetalShirt_SOFT_C" ]
+								[ 1, "PrimalItemArmor_MetalShirt_SOFT_C" ],
+								[ 1, "PrimalItemArmor_TransparentRiotShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -862,7 +886,8 @@
 								[ 1, "PrimalItemArmor_ClothGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ClothHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ClothPants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_ClothShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_ClothShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_MetalShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -875,7 +900,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_MetalShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -888,7 +914,8 @@
 								[ 1, "PrimalItemArmor_ChitinGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinPants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_TransparentRiotShield_TSOTF_C" ]
 							]
 						}
 					]
@@ -965,7 +992,8 @@
 								[ 1, "PrimalItem_WeaponCrossbow_SOTF_C" ],
 								[ 0.8, "PrimalItem_WeaponTripwireC4_SOTF_C" ],
 								[ 0.7, "PrimalItem_WeaponGrenade_SOTF_C" ],
-								[ 0.5, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ]
+								[ 0.5, "PrimalItemConsumableBuff_Parachute_TSOTF_C" ],
+								[ 1, "PrimalItem_WeaponSword_TSOTF_C" ]
 							]
 						},
 						{
@@ -979,7 +1007,9 @@
 								[ 0.9, "PrimalItem_WeaponRocketLauncher_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponProd_SOTF_C" ],
 								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
-								[ 0.9, "PrimalItem_WeapFlamethrower_SOTF_C" ]
+								[ 0.9, "PrimalItem_WeapFlamethrower_SOTF_C" ],
+								[ 0.9, "PrimalItem_WeaponShotgun_TSOTF_C" ],
+								[ 0.7, "PrimalItem_WeaponSword_TSOTF_C" ]
 							]
 						}
 					]
@@ -1057,7 +1087,9 @@
 								[ 0.8, "PrimalItem_WeaponProd_SOTF_C" ],
 								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ],
-								[ 0, "PrimalItem_WeapFlamethrower_SOTF_C" ]
+								[ 0, "PrimalItem_WeapFlamethrower_SOTF_C" ],
+								[ 0.7, "PrimalItem_WeaponBallista_TSOTF_C" ],
+								[ 1, "PrimalItem_WeaponShotgun_TSOTF_C" ]
 							]
 						}
 					]
@@ -1078,7 +1110,8 @@
 								[ 1, "PrimalItemArmor_MetalGloves_SOFT_C" ],
 								[ 1, "PrimalItemArmor_MetalHelmet_SOFT_C" ],
 								[ 1, "PrimalItemArmor_MetalPants_SOFT_C" ],
-								[ 1, "PrimalItemArmor_MetalShirt_SOFT_C" ]
+								[ 1, "PrimalItemArmor_MetalShirt_SOFT_C" ],
+								[ 1, "PrimalItemArmor_TransparentRiotShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -1091,7 +1124,8 @@
 								[ 1, "PrimalItemArmor_ClothGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ClothHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ClothPants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_ClothShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_ClothShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_MetalShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -1104,7 +1138,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_MetalShield_TSOTF_C" ]
 							]
 						},
 						{
@@ -1117,7 +1152,8 @@
 								[ 1, "PrimalItemArmor_ChitinGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_ChitinPants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_ChitinShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_TransparentRiotShield_TSOTF_C" ]
 							]
 						}
 					]
@@ -1166,7 +1202,8 @@
 							"items": [
 								[ 1, "PrimalItem_WeaponBow_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponOilJar_SOTF_C" ],
-								[ 0.8, "PrimalItem_WeaponPike_SOTF_C" ]
+								[ 0.8, "PrimalItem_WeaponPike_SOTF_C" ],
+								[ 0.5, "PrimalItemStructure_BearTrap_TSOTF_C" ]
 							]
 						},
 						{
@@ -1213,7 +1250,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						}
 					]
@@ -1330,7 +1368,8 @@
 								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
 								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
-								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ]
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						}
 					]

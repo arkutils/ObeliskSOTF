@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/items.json",
-	"version": "464.28.10269294",
+	"version": "466.1.10292802",
 	"format": "4",
 	"items": [
 		{
@@ -162,6 +162,107 @@
 					{ "qty": 5, "type": "PrimalItemResource_Hide_C" },
 					{ "qty": 5, "type": "PrimalItemResource_Metal_C" },
 					{ "qty": 5, "type": "PrimalItemResource_Stone_C" }
+				]
+			}
+		},
+		{
+			"name": "Metal Shield",
+			"description": "A metal shield on a layer of leather. Absorbs damage from the front when activated.",
+			"bp": "/Game/TSOTF/Core/Players/Armor/Shields/PrimalItemArmor_MetalShield_TSOTF.PrimalItemArmor_MetalShield_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_MetalShield.PrimalItemArmor_MetalShield_C",
+			"icon": "/Game/PrimalEarth/WeaponShieldMetal/HUD_MetalShield_Colorize_MIC.HUD_MetalShield_Colorize_MIC",
+			"type": "Equipment/Shield",
+			"folders": [ "Armor", "Shields" ],
+			"weight": 45,
+			"stackSize": 1,
+			"durability": 300,
+			"crafting": {
+				"xp": 11.5,
+				"time": 5,
+				"levelReq": 0,
+				"productCount": 1,
+				"skillQualityMult": { "min": 0, "max": 0.05 },
+				"recipe": [
+					{ "qty": 80, "type": "PrimalItemResource_MetalIngot_C" },
+					{ "qty": 20, "type": "PrimalItemResource_ChitinPaste_C" },
+					{ "qty": 15, "type": "PrimalItemResource_Hide_C" }
+				]
+			},
+			"repair": {
+				"xp": 11.5,
+				"time": 5,
+				"recipe": [
+					{ "qty": 40, "type": "PrimalItemResource_MetalIngot_C" },
+					{ "qty": 10, "type": "PrimalItemResource_ChitinPaste_C" },
+					{ "qty": 7.5, "type": "PrimalItemResource_Hide_C" }
+				]
+			}
+		},
+		{
+			"name": "Riot Shield",
+			"description": "A metal-framed shield reinforced with polymer and crystal. Absorbs damage from the front when activated.",
+			"bp": "/Game/TSOTF/Core/Players/Armor/Shields/PrimalItemArmor_TransparentRiotShield_TSOTF.PrimalItemArmor_TransparentRiotShield_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_TransparentRiotShield.PrimalItemArmor_TransparentRiotShield_C",
+			"icon": "/Game/PrimalEarth/WeaponRiotShieldTransparent/HUD_TransparentRiotShield_Colorize_MIC.HUD_TransparentRiotShield_Colorize_MIC",
+			"type": "Equipment/Shield",
+			"folders": [ "Armor", "Shields" ],
+			"weight": 30,
+			"stackSize": 1,
+			"durability": 450,
+			"crafting": {
+				"xp": 78,
+				"time": 5,
+				"levelReq": 0,
+				"productCount": 1,
+				"skillQualityMult": { "min": 0, "max": 0.05 },
+				"recipe": [
+					{ "qty": 120, "type": "PrimalItemResource_Polymer_C" },
+					{ "qty": 200, "type": "PrimalItemResource_Crystal_C" },
+					{ "qty": 120, "type": "PrimalItemResource_Silicon_C" },
+					{ "qty": 40, "type": "PrimalItemResource_MetalIngot_C" }
+				]
+			},
+			"repair": {
+				"xp": 78,
+				"time": 5,
+				"recipe": [
+					{ "qty": 60, "type": "PrimalItemResource_Polymer_C" },
+					{ "qty": 100, "type": "PrimalItemResource_Crystal_C" },
+					{ "qty": 60, "type": "PrimalItemResource_Silicon_C" },
+					{ "qty": 20, "type": "PrimalItemResource_MetalIngot_C" }
+				]
+			}
+		},
+		{
+			"name": "Wooden Shield",
+			"description": "A wooden shield on a layer of leather. Absorbs damage from the front when activated.",
+			"bp": "/Game/TSOTF/Core/Players/Armor/Shields/PrimalItemArmor_WoodShield_TSOTF.PrimalItemArmor_WoodShield_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_WoodShield.PrimalItemArmor_WoodShield_C",
+			"icon": "/Game/PrimalEarth/WeaponWoodShield/HUD_Shield_Colorize_MIC.HUD_Shield_Colorize_MIC",
+			"type": "Equipment/Shield",
+			"folders": [ "Armor", "Shields" ],
+			"weight": 15,
+			"stackSize": 1,
+			"durability": 150,
+			"crafting": {
+				"xp": 3.8,
+				"time": 5,
+				"levelReq": 0,
+				"productCount": 1,
+				"skillQualityMult": { "min": 0, "max": 0.05 },
+				"recipe": [
+					{ "qty": 40, "type": "PrimalItemResource_Wood_C" },
+					{ "qty": 20, "type": "PrimalItemResource_Fibers_C" },
+					{ "qty": 12, "type": "PrimalItemResource_Hide_C" }
+				]
+			},
+			"repair": {
+				"xp": 3.8,
+				"time": 5,
+				"recipe": [
+					{ "qty": 20, "type": "PrimalItemResource_Wood_C" },
+					{ "qty": 10, "type": "PrimalItemResource_Fibers_C" },
+					{ "qty": 6, "type": "PrimalItemResource_Hide_C" }
 				]
 			}
 		},
@@ -1079,6 +1180,18 @@
 			"weapon": "/Game/TSOTF/Core/Weapons/Grenade/OilJar/WeapOilJar_SOTF.WeapOilJar_SOTF_C"
 		},
 		{
+			"name": "Plant Species Z Fruit",
+			"description": "Bioluminescent Fruit that provides a flash of Charge lighting",
+			"bp": "/Game/TSOTF/Core/Weapons/Grenade/PlantZ/PrimalItem_PlantSpeciesZ_Grenade_TSOTF.PrimalItem_PlantSpeciesZ_Grenade_TSOTF_C",
+			"parent": "/Game/Aberration/WeaponPlantSpeciesZ/PrimalItem_PlantSpeciesZ_Grenade.PrimalItem_PlantSpeciesZ_Grenade_C",
+			"icon": "/Game/Aberration/Icons/Plants/PlantZ_Fruit_Icon.PlantZ_Fruit_Icon",
+			"type": "Weapon",
+			"weight": 1,
+			"stackSize": 100,
+			"spoilsIn": 21600,
+			"weapon": "/Game/TSOTF/Core/Weapons/Grenade/PlantZ/WeapPlantSpeciesZ_TSOTF.WeapPlantSpeciesZ_TSOTF_C"
+		},
+		{
 			"name": "Poison Grenade",
 			"description": "Releases narcotic smoke to knock out anything in the area -- only affects humans.",
 			"bp": "/Game/TSOTF/Core/Weapons/Grenade/PoisonGrenade/PrimalItem_PoisonGrenade_SOTF.PrimalItem_PoisonGrenade_SOTF_C",
@@ -1102,6 +1215,30 @@
 				]
 			},
 			"weapon": "/Game/TSOTF/Core/Weapons/Grenade/PoisonGrenade/WeapPoisonGrenade_SOTF.WeapPoisonGrenade_SOTF_C"
+		},
+		{
+			"name": "Smoke Grenade",
+			"description": "Releases a lot of smoke to obscure your plans. Pulling the pin starts a 5 second timer to an explosion.",
+			"bp": "/Game/TSOTF/Core/Weapons/Grenade/SmokeGrenade/PrimalItem_GasGrenade_TSOTF.PrimalItem_GasGrenade_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_GasGrenade.PrimalItem_GasGrenade_C",
+			"icon": "/Game/PrimalEarth/CoreBlueprints/Weapons/Icons/SmokeGrenade_Icon.SmokeGrenade_Icon",
+			"type": "Weapon",
+			"folders": [ "Weapons", "Explosive" ],
+			"weight": 0.5,
+			"stackSize": 10,
+			"crafting": {
+				"xp": 11.35,
+				"time": 5,
+				"levelReq": 0,
+				"productCount": 1,
+				"skillQualityMult": { "min": 0, "max": 0.05 },
+				"recipe": [
+					{ "qty": 1, "type": "PrimalItemResource_MetalIngot_C" },
+					{ "qty": 2, "type": "PrimalItemResource_Gunpowder_C" },
+					{ "qty": 20, "type": "PrimalItemResource_Stone_SOTF_C" }
+				]
+			},
+			"weapon": "/Game/TSOTF/Core/Weapons/Grenade/SmokeGrenade/WeapGasGrenade_TSOTF.WeapGasGrenade_TSOTF_C"
 		},
 		{
 			"name": "AnglerGel",
@@ -1186,6 +1323,18 @@
 				]
 			},
 			"weapon": "/Game/TSOTF/Core/Weapons/MeleeWeapons/Spear/WeapSpear_SOTF.WeapSpear_SOTF_C"
+		},
+		{
+			"name": "Sword",
+			"description": "The undisputed ruler of short-range combat. Needs a hotter flame to be forged.",
+			"bp": "/Game/TSOTF/Core/Weapons/MeleeWeapons/Sword/PrimalItem_WeaponSword_TSOTF.PrimalItem_WeaponSword_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSword.PrimalItem_WeaponSword_C",
+			"icon": "/Game/PrimalEarth/WeaponSword/HUD_SwordForged_Colorize_MIC.HUD_SwordForged_Colorize_MIC",
+			"type": "Weapon",
+			"folders": [ "Weapons", "Primitive", "Melee" ],
+			"weight": 5,
+			"stackSize": 1,
+			"weapon": "/Game/TSOTF/Core/Weapons/MeleeWeapons/Sword/WeapSword_TSOTF.WeapSword_TSOTF_C"
 		},
 		{
 			"name": "Flamethrower Ammo",
@@ -1284,6 +1433,52 @@
 			"weapon": "/Game/TSOTF/Core/Weapons/ModernRangedWeapons/RocketLauncher/WeapRocketLauncher_SOTF.WeapRocketLauncher_SOTF_C"
 		},
 		{
+			"name": "Simple Shotgun Ammo",
+			"description": "A few simple bullets in a hide casing, used with forged shotguns.",
+			"bp": "/Game/TSOTF/Core/Weapons/ModernRangedWeapons/ShotGun/PrimalItemAmmo_SimpleShotgunBullet_TSOTF.PrimalItemAmmo_SimpleShotgunBullet_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_SimpleShotgunBullet.PrimalItemAmmo_SimpleShotgunBullet_C",
+			"icon": "/Game/PrimalEarth/CoreBlueprints/Weapons/Icons/Bullet5_Icon.Bullet5_Icon",
+			"type": "Ammo",
+			"folders": [ "Weapons", "Ammo" ],
+			"weight": 0.1,
+			"stackSize": 10,
+			"crafting": {
+				"xp": 0.25,
+				"time": 1,
+				"levelReq": 0,
+				"productCount": 1,
+				"skillQualityMult": { "min": 0, "max": 0.05 },
+				"recipe": [
+					{ "qty": 2, "type": "PrimalItemResource_MetalIngot_C" },
+					{ "qty": 4, "type": "PrimalItemResource_Gunpowder_C" }
+				]
+			}
+		},
+		{
+			"name": "Shotgun",
+			"description": "Very powerful up close, but less reliable with range.",
+			"bp": "/Game/TSOTF/Core/Weapons/ModernRangedWeapons/ShotGun/PrimalItem_WeaponShotgun_TSOTF.PrimalItem_WeaponShotgun_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponShotgun.PrimalItem_WeaponShotgun_C",
+			"icon": "/Game/PrimalEarth/WeaponSawedOffShotgun/HUD_Shotgun_Colorize_MIC.HUD_Shotgun_Colorize_MIC",
+			"type": "Weapon",
+			"folders": [ "Weapons", "Firearms" ],
+			"weight": 10,
+			"stackSize": 1,
+			"crafting": {
+				"xp": 105.75,
+				"time": 15,
+				"levelReq": 0,
+				"productCount": 1,
+				"skillQualityMult": { "min": 0, "max": 0.05 },
+				"recipe": [
+					{ "qty": 80, "type": "PrimalItemResource_MetalIngot_C" },
+					{ "qty": 20, "type": "PrimalItemResource_Wood_C" },
+					{ "qty": 25, "type": "PrimalItemResource_Hide_C" }
+				]
+			},
+			"weapon": "/Game/TSOTF/Core/Weapons/ModernRangedWeapons/ShotGun/WeapSawedOffShotgun_TSOTF.WeapSawedOffShotgun_TSOTF_C"
+		},
+		{
 			"name": "Crossbow",
 			"description": "Has signifantly more power than the Bow, but cannot fire rapidly.  Can fire underwater.",
 			"bp": "/Game/TSOTF/Core/Weapons/PrimRangedWeapons/Crossbow/PrimalItem_WeaponCrossbow_SOTF_1.PrimalItem_WeaponCrossbow_SOTF_1_C",
@@ -1329,6 +1524,18 @@
 				]
 			},
 			"weapon": "/Game/TSOTF/Core/Weapons/PrimRangedWeapons/Slingshot/WeapSlingshot_SOTF.WeapSlingshot_SOTF_C"
+		},
+		{
+			"name": "Bear Trap",
+			"description": "Immobilizes humans and small creatures.",
+			"bp": "/Game/TSOTF/Core/Weapons/Traps/BearTrap/PrimalItemStructure_BearTrap_TSOTF.PrimalItemStructure_BearTrap_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BearTrap.PrimalItemStructure_BearTrap_C",
+			"icon": "/Game/PrimalEarth/CoreBlueprints/Weapons/Icons/SmallBearTrap_Icon.SmallBearTrap_Icon",
+			"type": "Structure",
+			"folders": [ "Structures", "Defenses" ],
+			"weight": 2,
+			"stackSize": 1,
+			"structure": "/Game/TSOTF/Core/Weapons/Traps/BearTrap/BearTrapLarge_TSOTF.BearTrapLarge_TSOTF_C"
 		},
 		{
 			"name": "C4 Charge",
@@ -1450,6 +1657,72 @@
 				]
 			},
 			"weapon": "/Game/TSOTF/Core/Weapons/Utility/GrappleHook/WeapCrossbow_GrapplingHook_SOTF.WeapCrossbow_GrapplingHook_SOTF_C"
+		},
+		{
+			"name": "Spear Bolt",
+			"description": "A massive bolt with a cast iron arrowhead. Can only be used in a Ballista Turret or Harpoon Gun. If it doesn't break, you can recover your ammo.",
+			"bp": "/Game/TSOTF/Core/Weapons/Utility/Harpoon/PrimalItemAmmo_BallistaArrow_TSOTF.PrimalItemAmmo_BallistaArrow_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_BallistaArrow.PrimalItemAmmo_BallistaArrow_C",
+			"icon": "/Game/PrimalEarth/CoreBlueprints/Weapons/Icons/BallistaArrow_Icon.BallistaArrow_Icon",
+			"type": "Ammo",
+			"folders": [ "Weapons", "Ammo" ],
+			"weight": 0.4,
+			"stackSize": 100,
+			"crafting": {
+				"xp": 9.3,
+				"time": 5,
+				"levelReq": 0,
+				"productCount": 1,
+				"skillQualityMult": { "min": 0, "max": 0.05 },
+				"recipe": [
+					{ "qty": 14, "type": "PrimalItemResource_MetalIngot_C" },
+					{ "qty": 14, "type": "PrimalItemResource_Wood_C" },
+					{ "qty": 5, "type": "PrimalItemResource_Flint_C" },
+					{ "qty": 20, "type": "PrimalItemResource_Fibers_C" }
+				]
+			}
+		},
+		{
+			"name": "Harpoon Launcher",
+			"description": "Has tremendous power and speed underwater, but ineffective range out of water. Uses Spear Bolts for ammunition.",
+			"bp": "/Game/TSOTF/Core/Weapons/Utility/Harpoon/PrimalItem_WeaponBallista_TSOTF.PrimalItem_WeaponBallista_TSOTF_C",
+			"parent": "/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponHarpoon.PrimalItem_WeaponHarpoon_C",
+			"icon": "/Game/PrimalEarth/WeaponHarpoon/HUD_Harpoon_Colorize_MIC.HUD_Harpoon_Colorize_MIC",
+			"type": "Weapon",
+			"folders": [ "Weapons", "Ranged" ],
+			"weight": 10,
+			"stackSize": 1,
+			"durability": 100,
+			"crafting": {
+				"xp": 9,
+				"time": 10,
+				"levelReq": 0,
+				"productCount": 1,
+				"skillQualityMult": { "min": 0, "max": 0.05 },
+				"recipe": [
+					{ "qty": 40, "type": "PrimalItemResource_Wood_C" },
+					{ "qty": 60, "type": "PrimalItemResource_Fibers_C" },
+					{ "qty": 25, "type": "PrimalItemResource_Hide_C" },
+					{ "qty": 120, "type": "PrimalItemResource_MetalIngot_C" },
+					{ "qty": 60, "type": "PrimalItemResource_ChitinPaste_C" },
+					{ "qty": 50, "type": "PrimalItemResource_Obsidian_C" },
+					{ "qty": 30, "type": "PrimalItemResource_Polymer_C" }
+				]
+			},
+			"repair": {
+				"xp": 9,
+				"time": 5,
+				"recipe": [
+					{ "qty": 20, "type": "PrimalItemResource_Wood_C" },
+					{ "qty": 30, "type": "PrimalItemResource_Fibers_C" },
+					{ "qty": 12.5, "type": "PrimalItemResource_Hide_C" },
+					{ "qty": 60, "type": "PrimalItemResource_MetalIngot_C" },
+					{ "qty": 30, "type": "PrimalItemResource_ChitinPaste_C" },
+					{ "qty": 25, "type": "PrimalItemResource_Obsidian_C" },
+					{ "qty": 15, "type": "PrimalItemResource_Polymer_C" }
+				]
+			},
+			"weapon": "/Game/TSOTF/Core/Weapons/Utility/Harpoon/WeapHarpoon_TSOTF.WeapHarpoon_TSOTF_C"
 		},
 		{
 			"name": "Net Projectile",
