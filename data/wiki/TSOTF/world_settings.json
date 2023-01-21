@@ -1,6 +1,6 @@
 {
 	"$schema": "../.schema/maps_world_settings.json",
-	"version": "466.1.10292802",
+	"version": "469.1.10370134",
 	"core": { "official": true },
 	"format": "2",
 	"persistentLevel": "/Game/Maps/TSOTF/TheIsland_SOTF",
@@ -297,6 +297,18 @@
 				"from": "/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP_C",
 				"to": [
 					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Sauropod_Character_BP_TSOTF.Sauropod_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Procoptodon_Character_BP_TSOTF.Procoptodon_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Gallimimus/Galli_Character_BP.Galli_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Galli_Character_BP_TSOTF.Galli_Character_BP_TSOTF_C" ]
 				]
 			}
 		]

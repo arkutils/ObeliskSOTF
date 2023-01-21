@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/loot_crates.json",
-	"version": "466.1.10292802",
+	"version": "469.1.10370134",
 	"format": "7",
 	"lootCrates": [
 		{
@@ -284,7 +284,7 @@
 					"name": "weapons",
 					"weight": 1,
 					"canRepeatItems": false,
-					"qtyScale": { "min": 1, "max": 2, "pow": 1 },
+					"qtyScale": { "min": 1, "max": 3, "pow": 1 },
 					"entries": [
 						{
 							"name": "tier2",
@@ -520,7 +520,7 @@
 					"name": "weapons",
 					"weight": 1,
 					"canRepeatItems": false,
-					"qtyScale": { "min": 1, "max": 2, "pow": 1 },
+					"qtyScale": { "min": 1, "max": 4, "pow": 1 },
 					"entries": [
 						{
 							"name": "tier2",
@@ -559,7 +559,7 @@
 								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponRocketLauncher_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponProd_SOTF_C" ],
-								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
+								[ 1.1, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
 								[ 0.3, "PrimalItem_WeaponSword_TSOTF_C" ]
 							]
 						}
@@ -981,7 +981,7 @@
 					"name": "weapons",
 					"weight": 1,
 					"canRepeatItems": false,
-					"qtyScale": { "min": 1, "max": 2, "pow": 1 },
+					"qtyScale": { "min": 1, "max": 4, "pow": 1 },
 					"entries": [
 						{
 							"name": "tier3",
@@ -1006,7 +1006,7 @@
 								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponRocketLauncher_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponProd_SOTF_C" ],
-								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
+								[ 1.4, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeapFlamethrower_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponShotgun_TSOTF_C" ],
 								[ 0.7, "PrimalItem_WeaponSword_TSOTF_C" ]
@@ -1080,12 +1080,12 @@
 						{
 							"name": "tier4",
 							"weight": 1,
-							"qty": { "min": 1, "max": 1, "pow": 1 },
+							"qty": { "min": 2, "max": 4, "pow": 1 },
 							"quality": { "min": 0, "max": 0, "pow": 1 },
 							"items": [
 								[ 0.9, "PrimalItem_WeaponRocketLauncher_SOTF_C" ],
 								[ 0.8, "PrimalItem_WeaponProd_SOTF_C" ],
-								[ 1, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
+								[ 1.8, "PrimalItem_WeaponCompoundBow_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ],
 								[ 0, "PrimalItem_WeapFlamethrower_SOTF_C" ],
 								[ 0.7, "PrimalItem_WeaponBallista_TSOTF_C" ],
@@ -1171,6 +1171,205 @@
 							"quality": { "min": 0, "max": 1, "pow": 1 },
 							"items": [
 								[ 1, "PrimalItemConsumable_BloodPack_SOTF_C" ]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"bp": "/Game/TSOTF/Core/Supply/SupplyCrateSOTF_DinoLoot.SupplyCrateSOTF_DinoLoot_C",
+			"levelReq": { "min": 0, "max": 0 },
+			"decayTime": {
+				"start": 0,
+				"interval": 0
+			},
+			"noRepeatsInSets": true,
+			"qualityMult": { "min": 1, "max": 1 },
+			"setQty": { "min": 3, "max": 6, "pow": 1 },
+			"sets": [
+				{
+					"bp": "/Game/TSOTF/Core/Supply/LootItemSet_SupplyDrop_Weapon_SOTF_TIer1.LootItemSet_SupplyDrop_Weapon_SOTF_TIer1_C",
+					"name": "weapons",
+					"weight": 1,
+					"qtyScale": { "min": 1, "max": 1, "pow": 1 },
+					"entries": [
+						{
+							"name": "tier1",
+							"weight": 1,
+							"qty": { "min": 1, "max": 1, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItem_WeaponBow_SOTF_C" ],
+								[ 0.6, "PrimalItem_WeaponOilJar_SOTF_C" ],
+								[ 0.8, "PrimalItem_WeaponPike_SOTF_C" ],
+								[ 0.5, "PrimalItemStructure_BearTrap_TSOTF_C" ]
+							]
+						},
+						{
+							"name": "tier2",
+							"weight": 0.7,
+							"qty": { "min": 1, "max": 1, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItem_WeaponCrossbow_SOTF_1_C" ],
+								[ 0.95, "PrimalItem_WeaponBow_Flame_Gauntlet_SOTF_C" ],
+								[ 0.5, "PrimalItemConsumable_BloodPack_SOTF_C" ],
+								[ 0.6, "PrimalItem_PoisonGrenade_SOTF_C" ],
+								[ 0.9, "PrimalItem_WeaponPike_SOTF_C" ]
+							]
+						}
+					]
+				},
+				{
+					"bp": "/Game/TSOTF/Core/Supply/LootItemSet_SupplyDrop_Armor_SOTF_Tier1.LootItemSet_SupplyDrop_Armor_SOTF_Tier1_C",
+					"name": "Armor",
+					"weight": 1,
+					"qtyScale": { "min": 1, "max": 3, "pow": 1 },
+					"entries": [
+						{
+							"name": "tier1",
+							"weight": 1,
+							"qty": { "min": 1, "max": 1, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItemArmor_ClothBoots_SOTF_C" ],
+								[ 1, "PrimalItemArmor_ClothGloves_SOTF_C" ],
+								[ 1, "PrimalItemArmor_ClothHelmet_SOTF_C" ],
+								[ 1, "PrimalItemArmor_ClothPants_SOTF_C" ],
+								[ 1, "PrimalItemArmor_ClothShirt_SOTF_C" ]
+							]
+						},
+						{
+							"name": "tier2",
+							"weight": 0.2,
+							"qty": { "min": 1, "max": 1, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItemArmor_HideBoots_SOTF_C" ],
+								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
+								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
+								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
+							]
+						}
+					]
+				},
+				{
+					"bp": "/Game/TSOTF/Core/Supply/LootItemSet_SupplyDrop_Resources_SOTF_Tier1.LootItemSet_SupplyDrop_Resources_SOTF_Tier1_C",
+					"name": "Resources",
+					"weight": 1,
+					"qtyScale": { "min": 4, "max": 6, "pow": 1 },
+					"entries": [
+						{
+							"name": "tier1",
+							"weight": 1,
+							"rollOneItemOnly": true,
+							"qty": { "min": 6, "max": 14, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItemResource_Wood_SOTF_C" ],
+								[ 1.4, "PrimalItemResource_Fibers_SOTF_C" ],
+								[ 1, "PrimalItemResource_Flint_SOTF_C" ],
+								[ 1, "PrimalItemResource_Stone_SOTF_C" ]
+							]
+						},
+						{
+							"name": "tier2",
+							"weight": 0.4,
+							"rollOneItemOnly": true,
+							"qty": { "min": 2, "max": 6, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItemResource_Hide_C" ],
+								[ 1, "PrimalItemResource_Propellant_C" ]
+							]
+						}
+					]
+				},
+				{
+					"bp": "/Game/TSOTF/Core/Supply/LootItemSet_SupplyDrop_Resources_SOTF_Tier1.LootItemSet_SupplyDrop_Resources_SOTF_Tier1_C",
+					"name": "Resources",
+					"weight": 1,
+					"qtyScale": { "min": 4, "max": 6, "pow": 1 },
+					"entries": [
+						{
+							"name": "tier1",
+							"weight": 1,
+							"rollOneItemOnly": true,
+							"qty": { "min": 6, "max": 14, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItemResource_Wood_SOTF_C" ],
+								[ 1.4, "PrimalItemResource_Fibers_SOTF_C" ],
+								[ 1, "PrimalItemResource_Flint_SOTF_C" ],
+								[ 1, "PrimalItemResource_Stone_SOTF_C" ]
+							]
+						},
+						{
+							"name": "tier2",
+							"weight": 0.4,
+							"rollOneItemOnly": true,
+							"qty": { "min": 2, "max": 6, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItemResource_Hide_C" ],
+								[ 1, "PrimalItemResource_Propellant_C" ]
+							]
+						}
+					]
+				},
+				{
+					"bp": "/Game/TSOTF/Core/Supply/LootItemSet_SupplyDrop_Weapon_SOTF_TIer1_Add.LootItemSet_SupplyDrop_Weapon_SOTF_TIer1_Add_C",
+					"name": "weapons",
+					"weight": 1,
+					"canRepeatItems": false,
+					"qtyScale": { "min": 1, "max": 1, "pow": 1 },
+					"entries": [
+						{
+							"name": "tier1",
+							"weight": 1,
+							"qty": { "min": 1, "max": 1, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItem_WeaponBow_SOTF_C" ],
+								[ 1, "PrimalItem_WeaponPike_SOTF_C" ]
+							]
+						}
+					]
+				},
+				{
+					"bp": "/Game/TSOTF/Core/Supply/LootItemSet_SupplyDrop_Armor_SOTF_Tier1.LootItemSet_SupplyDrop_Armor_SOTF_Tier1_C",
+					"name": "Armor",
+					"weight": 1,
+					"qtyScale": { "min": 1, "max": 3, "pow": 1 },
+					"entries": [
+						{
+							"name": "tier1",
+							"weight": 1,
+							"qty": { "min": 1, "max": 1, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItemArmor_ClothBoots_SOTF_C" ],
+								[ 1, "PrimalItemArmor_ClothGloves_SOTF_C" ],
+								[ 1, "PrimalItemArmor_ClothHelmet_SOTF_C" ],
+								[ 1, "PrimalItemArmor_ClothPants_SOTF_C" ],
+								[ 1, "PrimalItemArmor_ClothShirt_SOTF_C" ]
+							]
+						},
+						{
+							"name": "tier2",
+							"weight": 0.2,
+							"qty": { "min": 1, "max": 1, "pow": 1 },
+							"quality": { "min": 0, "max": 0, "pow": 1 },
+							"items": [
+								[ 1, "PrimalItemArmor_HideBoots_SOTF_C" ],
+								[ 1, "PrimalItemArmor_HideGloves_SOTF_C" ],
+								[ 1, "PrimalItemArmor_HideHelmet_SOTF_C" ],
+								[ 1, "PrimalItemArmor_HidePants_SOTF_C" ],
+								[ 1, "PrimalItemArmor_HideShirt_SOTF_C" ],
+								[ 1, "PrimalItemArmor_WoodShield_TSOTF_C" ]
 							]
 						}
 					]
