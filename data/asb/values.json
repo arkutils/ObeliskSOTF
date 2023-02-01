@@ -1,5 +1,5 @@
 {
-	"version": "469.1.10370134",
+	"version": "471.17.10454823",
 	"format": "1.14-flyerspeed",
 	"species": [
 		{
@@ -5032,8 +5032,8 @@
 			"name": "Mantis",
 			"blueprintPath": "/Game/TSOTF/Core/Supply/Dino/Mantis_Character_BP_TSOTF.Mantis_Character_BP_TSOTF",
 			"fullStatsRaw": [
-				[ 550, 0.2, 0.135, 0.5, 0 ],
-				[ 150, 0.1, 0.1, 0, 0 ],
+				[ 750, 0.2, 0.135, 0.5, 0 ],
+				[ 250, 0.1, 0.1, 0, 0 ],
 				[ 350, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
 				[ 900, 0.1, 0.1, 0, 0 ],
@@ -5045,7 +5045,10 @@
 				null,
 				null
 			],
-			"altBaseStats": { "0": 275 },
+			"altBaseStats": {
+				"0": 275,
+				"1": 150
+			},
 			"immobilizedBy": [ "Chain Bola", "Bear Trap", "Plant Species Y" ],
 			"breeding": {
 				"gestationTime": 0,
@@ -5274,8 +5277,8 @@
 			"name": "Velonasaur",
 			"blueprintPath": "/Game/TSOTF/Core/Supply/Dino/Spindles_Character_BP_TSOTF.Spindles_Character_BP_TSOTF",
 			"fullStatsRaw": [
-				[ 440, 0.2, 0.27, 0.5, 0 ],
-				[ 700, 0.1, 0.1, 0, 0 ],
+				[ 800, 0.2, 0.27, 0.5, 0 ],
+				[ 850, 0.1, 0.1, 0, 0 ],
 				[ 400, 0.06, 0, 0.5, 0 ],
 				[ 225, 0.1, 0.1, 0, 0 ],
 				[ 2250, 0.1, 0.1, 0, 0 ],
@@ -5287,7 +5290,10 @@
 				null,
 				null
 			],
-			"altBaseStats": { "1": 325 },
+			"altBaseStats": {
+				"0": 440,
+				"1": 325
+			},
 			"immobilizedBy": [ "Chain Bola", "Large Bear Trap", "Plant Species Y" ],
 			"breeding": {
 				"gestationTime": 0,
@@ -5423,7 +5429,7 @@
 			"blueprintPath": "/Game/TSOTF/Core/Supply/Dino/Xenomorph_Character_BP_Male_Chupa_TSOTF.Xenomorph_Character_BP_Male_Chupa_TSOTF",
 			"variants": [ "Male" ],
 			"fullStatsRaw": [
-				[ 175, 0.2, 0.27, 0.5, 0 ],
+				[ 850, 0.2, 0.27, 0.5, 0 ],
 				[ 480, 0.1, 0.1, 0, 0 ],
 				[ 925, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
