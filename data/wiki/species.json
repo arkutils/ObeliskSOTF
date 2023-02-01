@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/species.json",
-	"version": "469.1.10370134",
+	"version": "471.17.10454823",
 	"format": "4",
 	"species": [
 		{
@@ -267,11 +267,11 @@
 			},
 			"staminaRates": { "sprint": -29 },
 			"attack": {
-				"defaultDmg": 89,
+				"defaultDmg": 81,
 				"defaultSwingRadius": 850,
 				"attacks": [
-					{ "name": "Bite", "interval": 0, "dmg": 90, "radius": 700, "stamina": 5 },
-					{ "name": "Tailspin", "interval": 1.25, "dmg": 70, "radius": 900, "stamina": 40 },
+					{ "name": "Bite", "interval": 0, "dmg": 81, "radius": 700, "stamina": 5 },
+					{ "name": "Tailspin", "interval": 1.25, "dmg": 63, "radius": 900, "stamina": 40 },
 					{ "name": "Roar", "interval": 1, "dmg": 0, "radius": 0, "stamina": 0 }
 				]
 			},
@@ -676,12 +676,12 @@
 			},
 			"staminaRates": { "sprint": -29 },
 			"attack": {
-				"defaultDmg": 175,
+				"defaultDmg": 195,
 				"defaultSwingRadius": 850,
 				"attacks": [
-					{ "name": "Bite", "interval": 0.4, "dmg": 175, "radius": 850, "stamina": 0 },
+					{ "name": "Bite", "interval": 0.4, "dmg": 195, "radius": 850, "stamina": 0 },
 					{ "name": "None", "interval": 1, "dmg": 0, "radius": 0, "stamina": 0 },
-					{ "name": "Gnash", "interval": 0.4, "dmg": 175, "radius": 850, "stamina": 0 }
+					{ "name": "Gnash", "interval": 0.4, "dmg": 195, "radius": 850, "stamina": 0 }
 				]
 			},
 			"death": {
@@ -2502,7 +2502,7 @@
 			"customTag": "Mantis",
 			"targetingTeamName": "Carnivores_Medium",
 			"mass": 100,
-			"dragWeight": 200,
+			"dragWeight": 400,
 			"flags": [
 				"allowMountedWeaponry",
 				"allowRiding",
@@ -2663,7 +2663,7 @@
 			"customTag": "Velonasaur",
 			"targetingTeamName": "Carnivores_Medium",
 			"mass": 225,
-			"dragWeight": 200,
+			"dragWeight": 400,
 			"flags": [
 				"allowRiding",
 				"canBeDragged",
@@ -2726,7 +2726,7 @@
 			"customTag": "Reaper King",
 			"targetingTeamName": "Carnivores_High",
 			"mass": 385,
-			"dragWeight": 525,
+			"dragWeight": 550,
 			"variants": [ "Male" ],
 			"flags": [
 				"allowRiding",
@@ -2756,22 +2756,22 @@
 				"swimOrFly": -3
 			},
 			"attack": {
-				"defaultDmg": 52,
+				"defaultDmg": 40,
 				"defaultSwingRadius": 300,
 				"attacks": [
-					{ "name": "BiteAttack", "interval": 0.7, "dmg": 85, "radius": 600, "stamina": 5 },
+					{ "name": "BiteAttack", "interval": 0.7, "dmg": 60, "radius": 600, "stamina": 5 },
 					{
-						"name": "Web Attack", "interval": 7, "dmg": 10, "radius": 600, "stamina": 50,
+						"name": "Web Attack", "interval": 7, "dmg": 8, "radius": 600, "stamina": 50,
 						"isProjectile": true
 					},
-					{ "name": "Tail swipe", "interval": 6, "dmg": 52, "radius": 1000, "stamina": 15 },
+					{ "name": "Tail swipe", "interval": 6, "dmg": 40, "radius": 1000, "stamina": 15 },
 					{
-						"name": "Tail spike", "interval": 5, "dmg": 10, "radius": 600, "stamina": 50,
+						"name": "Tail spike", "interval": 5, "dmg": 8, "radius": 600, "stamina": 50,
 						"isProjectile": true
 					},
-					{ "name": "Impregnation", "interval": 5, "dmg": 10, "radius": 600, "stamina": 0 },
-					{ "name": "Roar", "interval": 70, "dmg": 52, "radius": 0, "stamina": 15 },
-					{ "name": "HatchlingBiteAttack", "interval": 0.7, "dmg": 5, "radius": 200, "stamina": 5 }
+					{ "name": "Impregnation", "interval": 5, "dmg": 8, "radius": 600, "stamina": 0 },
+					{ "name": "Roar", "interval": 70, "dmg": 40, "radius": 0, "stamina": 15 },
+					{ "name": "HatchlingBiteAttack", "interval": 0.7, "dmg": 4, "radius": 200, "stamina": 5 }
 				]
 			}
 		}

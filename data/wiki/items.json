@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/items.json",
-	"version": "469.1.10370134",
+	"version": "471.17.10454823",
 	"format": "4",
 	"items": [
 		{
@@ -1791,7 +1791,7 @@
 		},
 		{
 			"name": "Parachute",
-			"description": "Use this while falling to slow your fall. Jump while parachuting to deactivate it.",
+			"description": "Use this while falling to slow your fall. Use again while parachuting to deactivate it.",
 			"bp": "/Game/TSOTF/Core/Weapons/Utility/Parachute/PrimalItemConsumableBuff_Parachute_TSOTF.PrimalItemConsumableBuff_Parachute_TSOTF_C",
 			"parent": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableBuff_Parachute.PrimalItemConsumableBuff_Parachute_C",
 			"icon": "/Game/PrimalEarth/Test/ParachuteIcon.ParachuteIcon",
