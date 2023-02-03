@@ -75,10 +75,10 @@
 					"description": "Friendly mission type name, or internal ID if unknown, if the dispatcher is restricted to a single type (like on Genesis 1)",
 					"anyOf": [
 						{
-							"type": "integer"
+							"type": "string"
 						},
 						{
-							"type": "string"
+							"type": "integer"
 						}
 					]
 				},
