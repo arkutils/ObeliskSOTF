@@ -1,6 +1,6 @@
 {
 	"$schema": "../.schema/maps_world_settings.json",
-	"version": "469.1.10370134",
+	"version": "472.2.10548271",
 	"core": { "official": true },
 	"format": "2",
 	"persistentLevel": "/Game/Maps/TSOTF/TheIsland_SOTF",
@@ -38,7 +38,7 @@
 			{
 				"from": "/Game/PrimalEarth/Dinos/Raptor/MegaRaptor_Character_BP.MegaRaptor_Character_BP_C",
 				"to": [
-					[ 1, "/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP_C" ]
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Raptor_Character_BP_TSOTF.Raptor_Character_BP_TSOTF_C" ]
 				]
 			},
 			{
@@ -74,7 +74,7 @@
 			{
 				"from": "/Game/PrimalEarth/Dinos/Raptor/BionicRaptor_Character_BP.BionicRaptor_Character_BP_C",
 				"to": [
-					[ 1, "/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP_C" ]
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Raptor_Character_BP_TSOTF.Raptor_Character_BP_TSOTF_C" ]
 				]
 			},
 			{
@@ -309,6 +309,18 @@
 				"from": "/Game/PrimalEarth/Dinos/Gallimimus/Galli_Character_BP.Galli_Character_BP_C",
 				"to": [
 					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Galli_Character_BP_TSOTF.Galli_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Stag/Stag_Character_BP.Stag_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Stag_Character_BP_TSOTF.Stag_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Raptor_Character_BP_TSOTF.Raptor_Character_BP_TSOTF_C" ]
 				]
 			}
 		]

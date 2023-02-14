@@ -9,14 +9,14 @@
 			"version": "471.17.10454823"
 		},
 		"loot_crates.json": {
-			"version": "469.1.10370134",
+			"version": "472.2.10548271",
 			"format": "7"
 		},
 		"spawn_groups.json": {
 			"version": "458.0.10207839.1"
 		},
 		"species.json": {
-			"version": "471.17.10454823"
+			"version": "472.2.10548271"
 		},
 		"TSOTF/biomes.json": {
 			"version": "458.0.10207839",
@@ -31,7 +31,7 @@
 			"format": "1"
 		},
 		"TSOTF/world_settings.json": {
-			"version": "469.1.10370134",
+			"version": "472.2.10548271",
 			"format": "2"
 		}
 	}

@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/species.json",
-	"version": "471.17.10454823",
+	"version": "472.2.10548271",
 	"format": "4",
 	"species": [
 		{
@@ -260,18 +260,18 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 952, "sprint": 1905 }
+				"walk": { "base": 856.8, "sprint": 1714.5 }
 			},
 			"movementD": {
-				"walk": { "base": 952, "sprint": 1905 }
+				"walk": { "base": 856.8, "sprint": 1714.5 }
 			},
 			"staminaRates": { "sprint": -29 },
 			"attack": {
-				"defaultDmg": 81,
+				"defaultDmg": 59,
 				"defaultSwingRadius": 850,
 				"attacks": [
-					{ "name": "Bite", "interval": 0, "dmg": 81, "radius": 700, "stamina": 5 },
-					{ "name": "Tailspin", "interval": 1.25, "dmg": 63, "radius": 900, "stamina": 40 },
+					{ "name": "Bite", "interval": 0, "dmg": 59, "radius": 700, "stamina": 5 },
+					{ "name": "Tailspin", "interval": 1.25, "dmg": 46, "radius": 900, "stamina": 40 },
 					{ "name": "Roar", "interval": 1, "dmg": 0, "radius": 0, "stamina": 0 }
 				]
 			},
@@ -329,8 +329,8 @@
 				"defaultDmg": 42,
 				"defaultSwingRadius": 121,
 				"attacks": [
-					{ "name": "Bite", "interval": 0.6, "dmg": 35, "radius": 121, "stamina": 0 },
-					{ "name": "Gore", "interval": 0.5, "dmg": 35, "radius": 132, "stamina": 0 }
+					{ "name": "Bite", "interval": 0.6, "dmg": 39, "radius": 121, "stamina": 0 },
+					{ "name": "Gore", "interval": 0.5, "dmg": 39, "radius": 132, "stamina": 0 }
 				]
 			},
 			"death": {
@@ -676,12 +676,12 @@
 			},
 			"staminaRates": { "sprint": -29 },
 			"attack": {
-				"defaultDmg": 195,
+				"defaultDmg": 142,
 				"defaultSwingRadius": 850,
 				"attacks": [
-					{ "name": "Bite", "interval": 0.4, "dmg": 195, "radius": 850, "stamina": 0 },
+					{ "name": "Bite", "interval": 0.4, "dmg": 142, "radius": 850, "stamina": 0 },
 					{ "name": "None", "interval": 1, "dmg": 0, "radius": 0, "stamina": 0 },
-					{ "name": "Gnash", "interval": 0.4, "dmg": 195, "radius": 850, "stamina": 0 }
+					{ "name": "Gnash", "interval": 0.4, "dmg": 142, "radius": 850, "stamina": 0 }
 				]
 			},
 			"death": {
@@ -735,7 +735,7 @@
 				"defaultDmg": 176,
 				"defaultSwingRadius": 1200,
 				"attacks": [
-					{ "name": "Melee Attack", "interval": 1, "dmg": 176, "radius": 600, "stamina": 30 },
+					{ "name": "Melee Attack", "interval": 1, "dmg": 352, "radius": 600, "stamina": 30 },
 					{
 						"name": "ThrowRock", "interval": 11, "dmg": 0, "radius": 1200, "stamina": 100,
 						"isProjectile": true
@@ -1378,6 +1378,67 @@
 			"death": { "baseXP": 2 }
 		},
 		{
+			"name": "Raptor",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Raptor_Character_BP_TSOTF.Raptor_Character_BP_TSOTF_C",
+			"dinoNameTag": "Raptor",
+			"customTag": "Raptor",
+			"targetingTeamName": "Carnivores_Medium",
+			"mass": 165,
+			"dragWeight": 85,
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isCarnivore",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 24 },
+			"cloning": {
+				"costBase": 575,
+				"costLevel": 55,
+				"timeBase": 4025,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 432, "sprint": 894.2 },
+				"swim": { "base": 300 }
+			},
+			"movementD": {
+				"walk": { "base": 432, "sprint": 993.6 },
+				"swim": { "base": 300 }
+			},
+			"staminaRates": {
+				"sprint": -6,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 15,
+				"defaultSwingRadius": 65,
+				"attacks": [
+					{ "name": "Melee", "interval": 0.2, "dmg": 15, "radius": 65, "stamina": 0 },
+					{ "name": "Pounce", "interval": 9, "dmg": 10, "radius": 300, "stamina": 5 },
+					{ "name": "Roar", "interval": 0, "dmg": 0, "radius": 0, "stamina": 0 },
+					{ "name": "None", "interval": 0.2, "dmg": 20, "radius": 180, "stamina": 0 }
+				]
+			},
+			"death": {
+				"lootBagChance": 0.3,
+				"lootBags": [
+					{
+						"chance": 1,
+						"item": "/Game/PrimalEarth/CoreBlueprints/Inventories/DinoDropInventoryComponent_Carnivore_Small.DinoDropInventoryComponent_Carnivore_Small"
+					}
+				],
+				"baseXP": 3
+			}
+		},
+		{
 			"name": "Rex",
 			"bp": "/Game/TSOTF/Core/Dinos/TBD/Rex_Character_BP_SOTF.Rex_Character_BP_SOTF_C",
 			"dinoNameTag": "Rex",
@@ -1754,11 +1815,11 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 290, "sprint": 507.5 },
+				"walk": { "base": 333, "sprint": 582.8 },
 				"swim": { "base": 300 }
 			},
 			"movementD": {
-				"walk": { "base": 406, "sprint": 1349.9 },
+				"walk": { "base": 466.2, "sprint": 1550.1 },
 				"swim": { "base": 420 }
 			},
 			"staminaRates": {
@@ -1836,10 +1897,10 @@
 				"swimOrFly": -3
 			},
 			"attack": {
-				"defaultDmg": 20,
+				"defaultDmg": 30,
 				"defaultSwingRadius": 145,
 				"attacks": [
-					{ "name": "Melee", "interval": 0.3, "dmg": 20, "radius": 145, "stamina": 0 },
+					{ "name": "Melee", "interval": 0.3, "dmg": 30, "radius": 145, "stamina": 0 },
 					{
 						"name": "Web Cone", "interval": 12, "dmg": 0, "radius": 0, "stamina": 30,
 						"isProjectile": true
@@ -1920,6 +1981,52 @@
 				],
 				"baseXP": 60
 			}
+		},
+		{
+			"name": "Megaloceros",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Stag_Character_BP_TSOTF.Stag_Character_BP_TSOTF_C",
+			"dinoNameTag": "Stag",
+			"customTag": "Stag",
+			"targetingTeamName": "Herbivores_Medium",
+			"mass": 195,
+			"dragWeight": 120,
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 37 },
+			"cloning": {
+				"costBase": 900,
+				"costLevel": 55,
+				"timeBase": 6300,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 150, "sprint": 900 },
+				"swim": { "base": 225 }
+			},
+			"movementD": {
+				"walk": { "base": 170, "sprint": 1020 },
+				"swim": { "base": 255 }
+			},
+			"staminaRates": {
+				"sprint": -4,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 30,
+				"defaultSwingRadius": 250,
+				"attacks": [ { "name": "Melee Attacks", "interval": 0.2, "dmg": 30, "radius": 250, "stamina": 0 } ]
+			},
+			"death": { "baseXP": 4 }
 		},
 		{
 			"name": "Stegosaurus",
@@ -2352,7 +2459,7 @@
 				"defaultSwingRadius": 90,
 				"attacks": [
 					{ "name": "Bite", "interval": 0.4, "dmg": 55, "radius": 500, "stamina": 10 },
-					{ "name": "Fear", "interval": 1, "dmg": 1, "radius": 1500, "stamina": 250 },
+					{ "name": "Fear", "interval": 1, "dmg": 1, "radius": 1500, "stamina": 300 },
 					{ "name": "Courage", "interval": 1, "dmg": 1, "radius": 1500, "stamina": 250 },
 					{ "name": "CourageToFollowers", "interval": 25, "dmg": 1, "radius": 1500, "stamina": 0 }
 				]

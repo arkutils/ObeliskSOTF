@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/loot_crates.json",
-	"version": "469.1.10370134",
+	"version": "472.2.10548271",
 	"format": "7",
 	"lootCrates": [
 		{
@@ -555,7 +555,7 @@
 							"qty": { "min": 1, "max": 1, "pow": 1 },
 							"quality": { "min": 0, "max": 0, "pow": 1 },
 							"items": [
-								[ 0.7, "PrimalItem_WeaponHarpoon_SOTF_C" ],
+								[ 0.35, "PrimalItem_WeaponHarpoon_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponRocketLauncher_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponProd_SOTF_C" ],
@@ -1002,7 +1002,7 @@
 							"qty": { "min": 1, "max": 1, "pow": 1 },
 							"quality": { "min": 0, "max": 0, "pow": 1 },
 							"items": [
-								[ 0.7, "PrimalItem_WeaponHarpoon_SOTF_C" ],
+								[ 0.35, "PrimalItem_WeaponHarpoon_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponC4_SOTF_C" ],
 								[ 0.9, "PrimalItem_WeaponRocketLauncher_SOTF_C" ],
 								[ 0.6, "PrimalItem_WeaponProd_SOTF_C" ],
