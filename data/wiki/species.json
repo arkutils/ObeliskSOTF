@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/species.json",
-	"version": "472.2.10548271",
+	"version": "472.10.10601336",
 	"format": "4",
 	"species": [
 		{
@@ -521,7 +521,7 @@
 				"defaultDmg": 40,
 				"defaultSwingRadius": 160,
 				"attacks": [
-					{ "name": "None", "interval": 0.08, "dmg": 40, "radius": 160, "stamina": 5 },
+					{ "name": "None", "interval": 0.08, "dmg": 40, "radius": 160, "stamina": 4 },
 					{ "name": "Howl", "interval": 90, "dmg": 0, "radius": 0, "stamina": 35 },
 					{ "name": "Sniff", "interval": 0.5, "dmg": 0, "radius": 0, "stamina": 85 }
 				]
@@ -1159,11 +1159,11 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 224, "sprint": 1280 },
+				"walk": { "base": 268.8, "sprint": 1536 },
 				"swim": { "base": 210 }
 			},
 			"movementD": {
-				"walk": { "base": 320, "sprint": 960 },
+				"walk": { "base": 384, "sprint": 1152 },
 				"swim": { "base": 300 }
 			},
 			"staminaRates": {
@@ -1468,11 +1468,11 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 515, "sprint": 736.4 },
+				"walk": { "base": 550, "sprint": 786.5 },
 				"swim": { "base": 300 }
 			},
 			"movementD": {
-				"walk": { "base": 515, "sprint": 1104.7 },
+				"walk": { "base": 550, "sprint": 1179.7 },
 				"swim": { "base": 300 }
 			},
 			"staminaRates": {
@@ -2057,11 +2057,11 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 195, "sprint": 766.8 },
+				"walk": { "base": 234, "sprint": 920.2 },
 				"swim": { "base": 300 }
 			},
 			"movementD": {
-				"walk": { "base": 87.7, "sprint": 265.4 },
+				"walk": { "base": 105.3, "sprint": 318.5 },
 				"swim": { "base": 135 }
 			},
 			"staminaRates": {
@@ -2292,10 +2292,10 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 490, "sprint": 788.9 }
+				"walk": { "base": 539, "sprint": 867.8 }
 			},
 			"movementD": {
-				"walk": { "base": 490, "sprint": 686 }
+				"walk": { "base": 539, "sprint": 754.6 }
 			},
 			"staminaRates": { "sprint": -20 },
 			"attack": {
@@ -2375,7 +2375,7 @@
 			"customTag": "Trike",
 			"targetingTeamName": "Herbivores_Medium",
 			"mass": 225,
-			"dragWeight": 400,
+			"dragWeight": 320,
 			"flags": [
 				"allowMountedWeaponry",
 				"allowRiding",
@@ -2425,7 +2425,7 @@
 			"customTag": "Yutyrannus",
 			"targetingTeamName": "Carnivores_High",
 			"mass": 5000,
-			"dragWeight": 500,
+			"dragWeight": 550,
 			"flags": [
 				"allowRiding",
 				"canBeDragged",
