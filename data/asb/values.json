@@ -1,5 +1,5 @@
 {
-	"version": "472.2.10548271",
+	"version": "472.10.10601336",
 	"format": "1.14-flyerspeed",
 	"species": [
 		{
@@ -2907,7 +2907,7 @@
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Rex_Character_BP_SOTF.Rex_Character_BP_SOTF",
 			"fullStatsRaw": [
 				[ 1100, 0.2, 0.27, 0.5, 0 ],
-				[ 646, 0.1, 0.1, 0, 0 ],
+				[ 743, 0.1, 0.1, 0, 0 ],
 				[ 1550, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
 				[ 3000, 0.1, 0.1, 0, 0 ],
@@ -3945,7 +3945,7 @@
 			"name": "Megaloceros",
 			"blueprintPath": "/Game/TSOTF/Core/Dinos/TBD/Stag_Character_BP_TSOTF.Stag_Character_BP_TSOTF",
 			"fullStatsRaw": [
-				[ 270, 0.2, 0.27, 0.5, 0 ],
+				[ 240, 0.2, 0.27, 0.5, 0 ],
 				[ 280, 0.1, 0.1, 0, 0 ],
 				[ 175, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
@@ -5266,7 +5266,7 @@
 			"name": "Mantis",
 			"blueprintPath": "/Game/TSOTF/Core/Supply/Dino/Mantis_Character_BP_TSOTF.Mantis_Character_BP_TSOTF",
 			"fullStatsRaw": [
-				[ 750, 0.2, 0.135, 0.5, 0 ],
+				[ 600, 0.2, 0.135, 0.5, 0 ],
 				[ 250, 0.1, 0.1, 0, 0 ],
 				[ 350, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
@@ -5663,7 +5663,7 @@
 			"blueprintPath": "/Game/TSOTF/Core/Supply/Dino/Xenomorph_Character_BP_Male_Chupa_TSOTF.Xenomorph_Character_BP_Male_Chupa_TSOTF",
 			"variants": [ "Male" ],
 			"fullStatsRaw": [
-				[ 850, 0.2, 0.27, 0.5, 0 ],
+				[ 950, 0.2, 0.27, 0.5, 0 ],
 				[ 480, 0.1, 0.1, 0, 0 ],
 				[ 925, 0.06, 0, 0.5, 0 ],
 				[ 150, 0.1, 0.1, 0, 0 ],
