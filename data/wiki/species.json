@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/species.json",
-	"version": "472.10.10601336",
+	"version": "474.3.10686528",
 	"format": "4",
 	"species": [
 		{
@@ -39,12 +39,12 @@
 			"staminaRates": { "sprint": -18 },
 			"attack": {
 				"defaultDmg": 35,
-				"defaultSwingRadius": 275,
+				"defaultSwingRadius": 310,
 				"attacks": [
-					{ "name": "Bite", "interval": 0.5, "dmg": 35, "radius": 275, "stamina": 10 },
-					{ "name": "Gore", "interval": 0.5, "dmg": 25, "radius": 275, "stamina": 30 },
+					{ "name": "Bite", "interval": 0.5, "dmg": 35, "radius": 310, "stamina": 10 },
+					{ "name": "Gore", "interval": 0.5, "dmg": 25, "radius": 310, "stamina": 30 },
 					{ "name": "Roar", "interval": 0.5, "dmg": 35, "radius": 0, "stamina": 0 },
-					{ "name": "Bite", "interval": 0.5, "dmg": 35, "radius": 275, "stamina": 0 }
+					{ "name": "Bite", "interval": 0.5, "dmg": 35, "radius": 310, "stamina": 0 }
 				]
 			},
 			"death": {
@@ -327,7 +327,7 @@
 			},
 			"attack": {
 				"defaultDmg": 42,
-				"defaultSwingRadius": 121,
+				"defaultSwingRadius": 135,
 				"attacks": [
 					{ "name": "Bite", "interval": 0.6, "dmg": 39, "radius": 121, "stamina": 0 },
 					{ "name": "Gore", "interval": 0.5, "dmg": 39, "radius": 132, "stamina": 0 }
@@ -343,6 +343,76 @@
 				],
 				"baseXP": 18
 			}
+		},
+		{
+			"name": "Chalicotherium",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Chalico_Character_BP_TSOTF.Chalico_Character_BP_TSOTF_C",
+			"dinoNameTag": "Chalico",
+			"customTag": "Chalico",
+			"targetingTeamName": "Herbivores_Medium_Aggressive",
+			"mass": 225,
+			"dragWeight": 300,
+			"flags": [
+				"allowMountedWeaponry",
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"isBigDino",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 28 },
+			"cloning": {
+				"costBase": 675,
+				"costLevel": 55,
+				"timeBase": 4725,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 262.5, "sprint": 1063.1 },
+				"swim": { "base": 300 }
+			},
+			"movementD": {
+				"walk": { "base": 262.5, "sprint": 1063.1 },
+				"swim": { "base": 300 }
+			},
+			"staminaRates": {
+				"sprint": -14,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 36,
+				"defaultSwingRadius": 430,
+				"attacks": [
+					{ "name": "Melee Hand", "interval": 1, "dmg": 36, "radius": 400, "stamina": 0 },
+					{
+						"name": "Throw Boulder", "interval": 5, "dmg": 32, "radius": 400, "stamina": 75,
+						"isProjectile": true
+					},
+					{ "name": "Melee Bite", "interval": 0.63, "dmg": 32, "radius": 400, "stamina": 0 },
+					{
+						"name": "Throw Mud", "interval": 3, "dmg": 32, "radius": 400, "stamina": 75,
+						"isProjectile": true
+					},
+					{
+						"name": "Throw Snow", "interval": 3, "dmg": 32, "radius": 400, "stamina": 75,
+						"isProjectile": true
+					},
+					{
+						"name": "Throw Mud Friendly", "interval": 3, "dmg": 32, "radius": 400, "stamina": 75,
+						"isProjectile": true
+					},
+					{
+						"name": "Throw Snow Friendly", "interval": 3, "dmg": 32, "radius": 400, "stamina": 75,
+						"isProjectile": true
+					}
+				]
+			},
+			"death": { "baseXP": 6 }
 		},
 		{
 			"name": "Daeodon",
@@ -373,11 +443,11 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 160, "sprint": 848 },
+				"walk": { "base": 184, "sprint": 975.2 },
 				"swim": { "base": 300 }
 			},
 			"movementD": {
-				"walk": { "base": 160, "sprint": 848 },
+				"walk": { "base": 184, "sprint": 975.2 },
 				"swim": { "base": 300 }
 			},
 			"staminaRates": {
@@ -950,11 +1020,11 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 195, "sprint": 780 },
+				"walk": { "base": 224, "sprint": 896 },
 				"swim": { "base": 300 }
 			},
 			"movementD": {
-				"walk": { "base": 195, "sprint": 780 },
+				"walk": { "base": 224, "sprint": 896 },
 				"swim": { "base": 300 }
 			},
 			"staminaRates": {
@@ -1236,6 +1306,53 @@
 				]
 			},
 			"death": { "baseXP": 1 }
+		},
+		{
+			"name": "Paraceratherium",
+			"bp": "/Game/TSOTF/Core/Dinos/TBD/Paracer_Character_BP_TSOTF.Paracer_Character_BP_TSOTF_C",
+			"dinoNameTag": "Paracer",
+			"customTag": "Paracer",
+			"targetingTeamName": "Herbivores_Large",
+			"mass": 360,
+			"dragWeight": 600,
+			"flags": [
+				"allowRiding",
+				"canBeDragged",
+				"canBeTorpid",
+				"canDrag",
+				"doStepDamage",
+				"isBigDino",
+				"isTameable"
+			],
+			"leveling": { "mutagenCost": 66 },
+			"cloning": {
+				"costBase": 1650,
+				"costLevel": 55,
+				"timeBase": 11550,
+				"timeLevel": 385
+			},
+			"falling": {
+				"dmgMult": 80,
+				"maxSpeed": 1550
+			},
+			"movementW": {
+				"walk": { "base": 325, "sprint": 893.8 },
+				"swim": { "base": 300 }
+			},
+			"movementD": {
+				"walk": { "base": 325, "sprint": 893.8 },
+				"swim": { "base": 300 }
+			},
+			"staminaRates": {
+				"sprint": -12,
+				"swimOrFly": -3
+			},
+			"attack": {
+				"defaultDmg": 45,
+				"defaultSwingRadius": 550,
+				"attacks": [ { "name": "melee", "interval": 0.375, "dmg": 45, "radius": 550, "stamina": 0 } ]
+			},
+			"death": { "baseXP": 12 }
 		},
 		{
 			"name": "Pegomastax",
@@ -1713,11 +1830,11 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 180, "sprint": 729 },
+				"walk": { "base": 225, "sprint": 911.3 },
 				"swim": { "base": 300 }
 			},
 			"movementD": {
-				"walk": { "base": 216, "sprint": 486 },
+				"walk": { "base": 270, "sprint": 607.5 },
 				"swim": { "base": 360 }
 			},
 			"staminaRates": {
@@ -1830,7 +1947,7 @@
 				"defaultDmg": 0,
 				"defaultSwingRadius": 90,
 				"attacks": [
-					{ "name": "Melee", "interval": 1, "dmg": 400, "radius": 670, "stamina": 0 },
+					{ "name": "Melee", "interval": 1, "dmg": 440, "radius": 670, "stamina": 0 },
 					{
 						"name": "Web Cone", "interval": 10, "dmg": 0, "radius": 0, "stamina": 0,
 						"isProjectile": true
@@ -1839,7 +1956,7 @@
 						"name": "Acid Cone", "interval": 10, "dmg": 0, "radius": 0, "stamina": 0,
 						"isProjectile": true
 					},
-					{ "name": "Taunt", "interval": 30, "dmg": 500, "radius": 670, "stamina": 0 },
+					{ "name": "Taunt", "interval": 30, "dmg": 550, "radius": 670, "stamina": 0 },
 					{ "name": "Summon Minions", "interval": 10, "dmg": 0, "radius": 0, "stamina": 200 }
 				]
 			},
@@ -1985,7 +2102,7 @@
 		{
 			"name": "Megaloceros",
 			"bp": "/Game/TSOTF/Core/Dinos/TBD/Stag_Character_BP_TSOTF.Stag_Character_BP_TSOTF_C",
-			"dinoNameTag": "Stag",
+			"dinoNameTag": "Megaloceros",
 			"customTag": "Stag",
 			"targetingTeamName": "Herbivores_Medium",
 			"mass": 195,
@@ -2018,7 +2135,7 @@
 				"swim": { "base": 255 }
 			},
 			"staminaRates": {
-				"sprint": -4,
+				"sprint": -7,
 				"swimOrFly": -3
 			},
 			"attack": {
@@ -2425,7 +2542,7 @@
 			"customTag": "Yutyrannus",
 			"targetingTeamName": "Carnivores_High",
 			"mass": 5000,
-			"dragWeight": 550,
+			"dragWeight": 500,
 			"flags": [
 				"allowRiding",
 				"canBeDragged",
@@ -2448,17 +2565,17 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 700, "sprint": 1610 }
+				"walk": { "base": 650, "sprint": 1495 }
 			},
 			"movementD": {
-				"walk": { "base": 700, "sprint": 1610 }
+				"walk": { "base": 650, "sprint": 1495 }
 			},
 			"staminaRates": { "sprint": -40 },
 			"attack": {
 				"defaultDmg": 0,
 				"defaultSwingRadius": 90,
 				"attacks": [
-					{ "name": "Bite", "interval": 0.4, "dmg": 55, "radius": 500, "stamina": 10 },
+					{ "name": "Bite", "interval": 0.4, "dmg": 50, "radius": 500, "stamina": 10 },
 					{ "name": "Fear", "interval": 1, "dmg": 1, "radius": 1500, "stamina": 300 },
 					{ "name": "Courage", "interval": 1, "dmg": 1, "radius": 1500, "stamina": 250 },
 					{ "name": "CourageToFollowers", "interval": 25, "dmg": 1, "radius": 1500, "stamina": 0 }
@@ -2478,7 +2595,7 @@
 		{
 			"name": "Magmasaur",
 			"bp": "/Game/TSOTF/Core/Supply/Dino/Cherufe_Character_BP_TSOTF.Cherufe_Character_BP_TSOTF_C",
-			"dinoNameTag": "LavaLizard",
+			"dinoNameTag": "Magmasaur",
 			"customTag": "LavaLizard",
 			"targetingTeamName": "Carnivores_High",
 			"mass": 550,
@@ -2552,7 +2669,7 @@
 		{
 			"name": "Karkinos",
 			"bp": "/Game/TSOTF/Core/Supply/Dino/Crab_Character_BP_TSOTF.Crab_Character_BP_TSOTF_C",
-			"dinoNameTag": "CaveCrab",
+			"dinoNameTag": "Karkinos",
 			"customTag": "CaveCrab",
 			"targetingTeamName": "Carnivores_High",
 			"mass": 400,
@@ -2791,11 +2908,11 @@
 				"maxSpeed": 1550
 			},
 			"movementW": {
-				"walk": { "base": 505, "crouch": 300, "sprint": 909 },
+				"walk": { "base": 560, "crouch": 300, "sprint": 1008 },
 				"swim": { "base": 300 }
 			},
 			"movementD": {
-				"walk": { "base": 277.8, "crouch": 165, "sprint": 799.9 },
+				"walk": { "base": 308, "crouch": 165, "sprint": 887 },
 				"swim": { "base": 165 }
 			},
 			"staminaRates": {

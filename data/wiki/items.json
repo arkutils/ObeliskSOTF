@@ -1,6 +1,6 @@
 {
 	"$schema": ".schema/items.json",
-	"version": "471.17.10454823",
+	"version": "474.3.10686528",
 	"format": "4",
 	"items": [
 		{
@@ -1446,11 +1446,11 @@
 				"xp": 0.25,
 				"time": 1,
 				"levelReq": 0,
-				"productCount": 1,
+				"productCount": 4,
 				"skillQualityMult": { "min": 0, "max": 0.05 },
 				"recipe": [
-					{ "qty": 2, "type": "PrimalItemResource_MetalIngot_C" },
-					{ "qty": 4, "type": "PrimalItemResource_Gunpowder_C" }
+					{ "qty": 4, "type": "PrimalItemResource_MetalIngot_C" },
+					{ "qty": 8, "type": "PrimalItemResource_Gunpowder_C" }
 				]
 			}
 		},

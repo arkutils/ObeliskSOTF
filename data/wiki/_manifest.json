@@ -6,7 +6,7 @@
 			"format": "1"
 		},
 		"items.json": {
-			"version": "471.17.10454823"
+			"version": "474.3.10686528"
 		},
 		"loot_crates.json": {
 			"version": "472.10.10601336",
@@ -16,7 +16,7 @@
 			"version": "458.0.10207839.1"
 		},
 		"species.json": {
-			"version": "472.10.10601336"
+			"version": "474.3.10686528"
 		},
 		"TSOTF/biomes.json": {
 			"version": "458.0.10207839",
@@ -31,7 +31,7 @@
 			"format": "1"
 		},
 		"TSOTF/world_settings.json": {
-			"version": "472.2.10548271",
+			"version": "474.3.10686528",
 			"format": "2"
 		}
 	}

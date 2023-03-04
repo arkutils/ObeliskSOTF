@@ -1,6 +1,6 @@
 {
 	"$schema": "../.schema/maps_world_settings.json",
-	"version": "472.2.10548271",
+	"version": "474.3.10686528",
 	"core": { "official": true },
 	"format": "2",
 	"persistentLevel": "/Game/Maps/TSOTF/TheIsland_SOTF",
@@ -321,6 +321,18 @@
 				"from": "/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP_C",
 				"to": [
 					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Raptor_Character_BP_TSOTF.Raptor_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Paracer_Character_BP_TSOTF.Paracer_Character_BP_TSOTF_C" ]
+				]
+			},
+			{
+				"from": "/Game/PrimalEarth/Dinos/Chalicotherium/Chalico_Character_BP.Chalico_Character_BP_C",
+				"to": [
+					[ 1, "/Game/TSOTF/Core/Dinos/TBD/Chalico_Character_BP_TSOTF.Chalico_Character_BP_TSOTF_C" ]
 				]
 			}
 		]
